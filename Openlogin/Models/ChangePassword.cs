@@ -8,7 +8,7 @@ namespace Openlogin.Models
 {
     public class ChangePassword
     {
-        [Required(ErrorMessage = "Username is required")]
+        //[Required(ErrorMessage = "Username is required")]
         public String Username { get; set; }
 
         [Required(ErrorMessage = "Old Password is required")]
