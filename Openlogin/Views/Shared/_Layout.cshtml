@@ -9,19 +9,13 @@
 </head>
 
 <body>
-    <header>
-       
-            @Html.Partial("_Header")
-        
-    </header>
-    <div class="container-fluid">
-        
-            @RenderBody()
-
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
     </div>
 
     <footer>
-        <p>Powered by Open iT Analysis Server. All rights reserved. <a href="https://openit.com/">www.openit.com</a></p>
+        @Html.Partial("_Footer")
     </footer>
 
     @Scripts.Render("~/bundles/jquery")
