@@ -24,7 +24,7 @@ namespace Openlogin
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-simplex.css",
+                      "~/Content/css/Default.css",
                       "~/Content/site.css"));
         }
     }

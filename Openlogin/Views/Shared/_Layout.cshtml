@@ -4,19 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/css/Default.css">
+    @Styles.Render("~/Content/css/Default")
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 
 <body>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-    </div>
+    <div id="container">
+        <div id="header">
+            @Html.Partial("_Header")
+        </div>
 
-    <footer>
-        @Html.Partial("_Footer")
-    </footer>
+        <div id="content">
+            @RenderBody()
+        </div>
+
+        <div id="footer">
+            @Html.Partial("_Footer")
+        </div>
+    </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
