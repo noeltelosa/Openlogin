@@ -1,0 +1,43 @@
+ .sprite-icon-status-avaliabled{
+            background-image: Url(images/icon-status-avaliabled.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
+ .sprite-icon-status-away{
+            background-image: Url(images/icon-status-away.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
+ .sprite-icon-status-busy{
+            background-image: Url(images/icon-status-busy.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
+ .sprite-icon-status-donotdisturb{
+            background-image: Url(images/icon-status-donotdisturb.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
+
+ .sprite-icon-status-incall{
+            background-image: Url(images/icon-status-incall.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
+ .sprite-icon-status-offline{
+            background-image: Url(images/icon-status-offline.png);
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-position-y: 8px;
+			background-position-x: 24px;
+        }
