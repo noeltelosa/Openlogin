@@ -40,7 +40,6 @@ namespace Openlogin.Controllers
                 {
                     user.Invoke("ChangePassword", new object[] { account.OldPassword, account.NewPassword });
                     ViewBag.Message = result;
-                    account.Result = result;
                 }
                 catch (Exception ex)
                 {
@@ -50,7 +49,6 @@ namespace Openlogin.Controllers
                         errMessage = ex.Message;
                     }
                     ViewBag.Message = errMessage;
-                    account.Result = errMessage;
                 }
                 finally
                 {

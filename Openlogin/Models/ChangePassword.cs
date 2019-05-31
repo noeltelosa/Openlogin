@@ -27,6 +27,5 @@ namespace Openlogin.Models
         [DataType(DataType.Password)]
         public String ConfirmPassword { get; set; }
 
-        public String Result{ get; set; }
     }
 }
