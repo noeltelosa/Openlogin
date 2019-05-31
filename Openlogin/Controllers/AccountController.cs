@@ -36,6 +36,7 @@ namespace Openlogin.Controllers
 
                 try
                 {
+                    //try changing password
                     user.Invoke("ChangePassword", new object[] { account.OldPassword, account.NewPassword });
                     ViewBag.Message = "Password change successful";
                 }
