@@ -194,6 +194,7 @@
     <Content Include="Content\css\lync\images\icon-status-offline.png" />
     <Content Include="Content\css\lync\jquery.lyncpresence.css" />
     <Content Include="Content\css\Navigation.css" />
+    <Content Include="Content\css\Popover.css" />
     <Content Include="Content\css\ProductLabeling.css" />
     <Content Include="Content\css\SamImport.css" />
     <Content Include="Content\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
