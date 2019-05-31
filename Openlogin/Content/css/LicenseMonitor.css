@@ -1,0 +1,825 @@
+/* @override 
+	http://192.168.5.232/Content/Css/LicenseMonitor.css
+	http://share.openit.us:7004/Content/Css/LicenseMonitor.css
+*/
+.lmcontainer
+{
+	width:100%;
+	min-width:924px;
+}
+.lmsubcontent
+{
+	background:white;
+	vertical-align:top !important;
+	padding: 0px 10px;
+}
+
+.lmclearer
+{
+	margin:0px;
+	float:none;
+}
+
+.lmfilternavi
+{
+	margin:0px;
+	/*min-width:250px;*/
+	padding-bottom:15px;
+	width:18%;
+	background:white;
+	vertical-align:top !important;
+	padding: 0px 10px;
+}
+
+.lmfilternavi td
+{
+	width:100%;
+	
+}
+
+.lmsubcon
+{
+	vertical-align:top !important;
+	margin:0px;
+	float:none !important;
+	width:100% !important;
+}
+
+select.selectBox {
+	width:100%;
+}
+
+.class div.userdiv {
+	width: 25%;
+}
+
+#filtersDiv {
+	width:18%;
+	float:left;
+	padding:0px 15px 15px 15px;
+	margin-right:10px;
+}
+
+
+
+div.item {
+	margin-left:30px;
+	margin-bottom:5px;
+	padding-left:15px;
+	width:70%;
+	border:1px;
+	border-color:Black;
+	border-style:solid;
+}
+
+div.firstlayer {
+	background-color: #f6f6f6;	/*#EEEEEE*/
+	border-style:solid;
+	border-width:thin;
+	border-color: silver;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5px 10px 15px 5px;
+	margin-bottom: 10px;
+}
+
+
+
+div.secondlayer {
+	color:#333333;
+	font-size: 0.8em;
+	font-weight: normal;
+	border: thin solid #e2b677;
+	margin: 7px 0 0 25px;
+	background: #ecece0 url(../Images/secondlayerback.png) repeat-x 0;
+}
+
+a.secondlayerlabel
+{
+position: relative;    
+}
+        
+a {
+	cursor: pointer;
+}
+
+div.thirdlayer {
+	margin-left: 50px ;
+	/*width:inherit;*/
+	height: 20px;
+	font-size: 0.7em;
+	color: #515151;
+	font-weight: normal;
+	position:relative;
+	/*display: none;*/
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: Silver;
+	/*overflow:hidden; quickfix for product view layout*/
+}
+
+div.thirdlayerTemp {
+	margin-left: 50px ;
+	position: relative;
+	/*display: none;*/
+	/*border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: Silver;*/
+	/*overflow:hidden; quickfix for product view layout*/
+}
+
+table.thirdlayer {
+	/*margin-left: 50px ;*/
+	width:100%;
+	text-align:left;
+	font-size: 0.7em;
+	line-height: 1.2em;
+	color: #515151;
+	font-weight: normal;
+	position:relative;
+	/*display: none;*/
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: Silver;
+	/*overflow:hidden; quickfix for product view layout*/
+}
+
+
+/* These styles are added  temporarily to make the thirdlayer and dashboard rows functional with the usagebars. We should improve the visual look of this at some point... */
+
+
+
+table.thirdlayer tr {
+	background: #ecece0 url(../Images/secondlayerback.png) repeat-x 0;
+}
+
+table tr {
+	background: #ecece0 url(../Images/tableheaderback.png) repeat-x 0;
+}
+
+table tr td.lmsubcontent {
+	white-space: nowrap;
+}
+
+.spinner 
+{
+    background: url(../Images/ajax-loader.gif) no-repeat scroll 6px 2px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px; /* half width of the spinner gif */
+	margin-top: -50px; /* half height of the spinner gif */
+	text-align:center;
+	z-index:1234;
+	overflow: auto;
+	width: 100px; /* width of the spinner gif */
+	height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+
+
+
+div.historylink
+{
+	position:relative;
+	float: right;
+	overflow:hidden; /*quickfix for product view layout*/
+	padding-left: 25px;
+	background: url(../Icons/document_chart_16.png) no-repeat scroll 6px center;
+}
+
+
+
+div.usagebarwrapper 
+{
+	background: url(../Images/usagebarwrapper.png) no-repeat scroll 0 0;
+	width: 130px;
+	height: 20px;
+	padding: 0;
+	z-index: 1;
+	float: right;
+	position: relative;
+}
+
+div.usagebar {
+	text-align:right;
+	direction:rtl;
+	float:right;
+	/*position:absolute;*/
+	max-width: 128px;
+	/*padding-right: 4px;*/
+	height: 20px;
+	margin-right: 4px;
+	color: black;
+	z-index: 2;
+	background: url(../Images/usagebarover.png) no-repeat scroll 0 0;
+}
+
+
+div.usagebartotal {
+	text-align:right;
+	direction:rtl;
+	position:absolute;
+	max-width: 130px;
+	height: 20px;
+	margin-right: 4px;
+	/*padding-right: 4px;*/
+	color: black;
+	z-index: 1;
+	background: url(../Images/usagebarunder.png) no-repeat scroll 0 0;
+}
+
+
+div.genusagebar {	
+	background-color: #FFBEAA;
+	width: 0;
+	display:inline;
+	text-align:left;
+	direction:rtl;
+	color: black;
+	z-index: 1;
+}
+
+.clearer {
+	clear: both;
+}
+
+div.usagefigures 
+{
+	float: right;	
+	margin: 0 5px 0 0;
+	text-align: right;
+	color: #848575;
+	direction:rtl;
+	
+}
+
+div.ubartext 
+{
+	display:inline-block;
+	float: left;	
+	margin: 0 5px 0 0;
+}
+
+a.ubartext 
+{
+	display:inline-block;
+	float: left;	
+	margin: 0 5px 0 0;
+}
+
+.productview div.usagefigures {
+	width: 100px;
+	margin-right: 10px;
+}
+
+.featureview div.usagefigures {	
+	width: 125px;	
+	margin-right: 10px;
+}
+
+.genlabel 
+{
+	color: #fff;	/*#ffa183;*/
+	width: 50px;
+	margin: 0;
+	position: relative;
+	float: left;
+	padding: 0;
+	left: 7px;
+}
+
+/*  Styles used on the Product View   */
+
+.productview div.firstlayerlabel {
+	color: #d34e22;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-left: 20px;
+	background: url(../Icons/server.png) no-repeat scroll 0 2px;
+}
+
+.productview .mapped div.firstlayerlabel {
+	background: url(../Icons/world.png) no-repeat scroll 1px 2px;
+}
+
+
+.productview div.userhost, .productview div.usercheckout,
+.productview div.userlicense, .productview div.usercheckout {
+	width: 18%;
+	position: relative;
+	display:inline;
+	float: left;
+}
+
+td.specialCell1 
+{
+	border-right: none !important;
+}
+
+td.specialCell2 {
+	border-left: none !important;
+}
+
+
+div.productview .usagelabel {
+	width: 70%;
+}
+
+.productview a.secondlayer {	
+	background: #ecece0 url(../Images/secondlayerback.png) repeat-x 0;
+}
+
+
+.productview a.secondlayerlabel {
+	padding-left: 25px;
+	background: url(../Icons/application_view_tile.png) no-repeat 4px 0;
+}
+
+
+div.productview div.usagebar {	
+	top: 0;
+	right: 0;
+}
+
+
+
+.productview .userdiv {
+	/*position: relative;
+	float: left;*/
+	/*width: 25%;*/
+	padding-left: 23px;
+	background: url(../Icons/user.png) no-repeat 1px 3px;
+}
+
+div.productview #userbadge {
+	/*background: url(../Icons/id_card16.png) no-repeat center center;
+	background-color:Blue;
+	padding-left:16px;*/
+	margin-left: 5px;
+	display:inline;
+}
+
+
+
+/*  Styles used on the Feature View   */
+
+/*div.featureview td {
+	width: 25%;	
+}*/
+
+
+
+
+.featureview div.firstlayerlabel {
+	color: #d34e22;
+	padding-left: 25px;
+	margin-bottom: 5px;	
+	background: url(../Icons/application_view_tile.png) no-repeat scroll 5px 2px;
+	
+}
+
+
+
+.featureview a.secondlayerlabel {
+	padding-left: 25px;
+	background: url(../Icons/server.png) no-repeat 4px 0;
+}
+
+.featureview .mapped a.secondlayerlabel {
+	background: url(../Icons/world.png) no-repeat 4px 0;
+}
+
+
+.featureview .userdiv {
+	padding-left: 25px;
+	background: url(../Icons/user.png) no-repeat 5px 4px;
+}
+
+.featureview div.userhost, .featureview div.usercheckout {
+	width: 25%;
+	position: relative;
+	float: left;
+}
+
+.featureview div.userlicense {
+	width: 10%;
+	float: left;
+	position: relative;
+}
+
+div.featureview div.featuse{
+	right: 0;
+	float: right;
+	/*top: -25px;*/
+	/*display: none;   Removed this, because we rather want to show usagebar per product in the feature view.  */
+} 
+
+
+div.featureview div.usagebar {	
+	top: 0;
+	right: 0;
+}
+
+div.featureview #userbadge {
+	/*background: url(../Icons/id_card16.png) no-repeat center center;
+	background-color:Blue;
+	padding-left:16px;*/
+	margin-left: 5px;
+	display:inline;
+}
+
+
+
+/* Styles used on the User view  */
+
+.userview div.firstlayerlabel {
+	color: #d34e22;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding-left: 23px !important;
+	margin-top: 5px;
+	background: url(../Icons/user.png) no-repeat 0 2px;
+	display:inline;
+}
+
+div.userview #userbadge {
+	/*background: url(../Icons/id_card16.png) no-repeat center center;
+	background-color:Blue;
+	padding-left:16px;*/
+	margin-left: 5px;
+	display:inline;
+}
+
+
+
+.userview .userhost {
+	width: auto;
+
+}
+
+.userview .usercheckout {
+	width: 180px;
+}
+.userview .userlicense {
+	width: 70px;
+}
+
+.userview .usagelabel {
+	width: auto;
+	padding-left: 25px !important;
+	background: url(../Icons/application_view_tile.png) no-repeat 5px center;
+}
+
+
+
+
+
+.userview a.secondlayerlabel {
+	padding-left: 25px;
+	background: url(../Icons/server.png) no-repeat 4px 0;
+}
+
+.userview .mapped a.secondlayerlabel  {
+	border-color: red;
+	background: url(../Icons/world.png) no-repeat 4px 0;
+}
+
+.userview .historylink {
+	width:45px;
+	margin-right: 0px;
+	/*overflow:hidden; quickfix for product view layout*/
+	padding-left: 25px !important;
+	background: url(../Icons/document_chart_16.png) no-repeat scroll 6px center;
+}
+
+
+div.userview .usagebarwrapper {
+	right: 0;
+	float:right;
+	position:relative;
+	z-index: 1;
+	background: url(../Images/usagebarwrapper.png) no-repeat scroll 0 0;
+
+} 
+
+
+div.userview div.usagebar {	
+	top: 0;
+	right: 0;
+	position:relative;
+	float: right;
+	padding:0;
+
+}
+
+
+
+.userview div.usagebartotal {	
+	/*top: -20px;*/
+	right: 0px;
+	position:absolute;
+	float: right;
+	
+}
+
+div.userview table.list td {
+   margin: 0;
+	padding: 0 5px;
+}
+
+
+/* Tooltip Styles */
+
+
+
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid silver;
+	background-color: #eee;
+	padding: 10px;
+	opacity: 0.85;
+	color: #384454;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+
+}
+
+#tooltip h3, #tooltip div { 
+	margin: 0; 
+}
+
+#tooltip dt.username 
+{
+	padding-left: 20px;
+	color:#D34E22;
+	background: url(../Icons/user.png) no-repeat 0 2px;
+	margin-bottom: 5px;
+	font-weight:bold;
+	/*background-color:Aqua;*/
+}
+
+#tooltip dd  {
+	/*font-weight:bold;*/
+	text-indent:-40px;
+}
+
+#tooltip label 
+{
+	font-weight:bold;
+	/*text-indent:-40px;*/
+}
+
+#tooltip .userdata 
+{
+	padding: 10px;
+	border: 1px solid #D34E22;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+	background-color:#E9E7DB;
+	font-size:0.8em;
+	/*background: url(../Icons/user.png) no-repeat 0 2px;*/
+	/*background-color:Aqua;*/
+}
+
+
+/* Global Table Styles Overrides */
+
+
+
+#results thead tr {
+	background: url(../Images/tableheaderback.png) repeat-x 0 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: underline;
+	color: #747474;
+}
+
+
+td.userdiv {
+	width: auto;
+}
+
+td.userhostname, th.userhostname {
+	width: 25%;
+}
+
+th.usercheckout {
+	width: 170px;
+}
+
+th.userlicense {
+	width: 80px;
+}
+
+td.usageinfo {
+	width: 230px;
+}
+
+/* TableSorter Styles */
+
+table.tablesorter thead tr .header {
+	background-image: url(../Images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../Images/asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../Images/desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #e3e0d0;
+}
+
+
+
+
+/* Breadcrumb Styles */
+
+div#breadcrumb {
+	padding-left: 5px;
+	background: url(../Icons/house.png) no-repeat 2px 2px;	
+	margin-bottom: 5px;
+}
+
+#breadcrumb a.active, #breadcrumb a.visited {
+	text-decoration: none;
+}
+
+#breadcrumb a.hover {
+	text-decoration: underline;
+}
+
+#breadcrumb ul  {
+	margin: 0;
+	padding: 0;
+}
+
+#breadcrumb li {
+	display: inline;
+}
+
+
+
+/* Filter Menu Styles  */
+
+ul.filters-menu {
+	display: none;
+	padding-top: 10px;
+}
+
+li.filters-menu {
+	list-style: none;
+}
+
+.ui-widget {
+	margin-top: 10px;
+}
+
+.ui-widget li {
+	margin: 0 15px;
+	list-style: none;
+	padding: 5px 0 5px 15px;
+}
+
+.ui-widget li.active {
+	padding: 5px 0 15px 15px;
+	background: #edebe2;
+	border: 2px solid #feb751;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.filters-menu label, .filters-menu input {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+li#filter-products label {
+		padding-left: 20px;
+		background: url(../Icons/server.png) no-repeat scroll;
+}
+
+li#filter-features label {
+		padding-left: 20px;
+		background: url(../Icons/application_view_tile.png) no-repeat scroll;
+}
+
+li#filter-users label {
+		padding-left: 20px;
+		background: url(../Icons/user.png) no-repeat scroll;
+}
+
+
+
+ul.selectedList {
+	margin: 0 0 0 25px;
+	overflow: hidden;
+
+}
+
+li.selectedproducts, li.selectedfeatures, li.selectedusers  {
+	margin: 0;
+	font-size: 0.8em;
+	background: url(../Icons/cancel.png) no-repeat 3px 2px;
+	font-style: italic;
+	padding: 0 15px 0 25px;
+	cursor:pointer;
+}
+
+#lm-filternavigation, #lm-subfilters {
+	margin-top: 25px;
+	background-color: #F7F7F7;
+	min-width: 200px;
+	min-height: 70px;
+	padding-bottom: 15px;
+	border-style:solid;
+	border-width:thin;
+	border-color: silver;
+	float: left;
+	width: 100%;
+}
+
+
+#lm-filternavigation h3, #lm-subfilters h3 {
+	color: #444444;
+	border-top: 1px solid #EEEEEE;
+	display: block;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0.5em 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align:left;
+}
+
+#primaryView
+{
+	width: 87%;
+	margin-left: 15px;
+}
+
+input#products, input#features, input#users {
+	display: block;
+	width: 90%;
+	
+}
+
+/* Dashboard page styles  */
+
+div.tableTitle
+{
+	color: #d34e22;
+	font-size:1em;
+	font-weight: bolder;
+	padding: 0;
+}
+
+table.tablesorter.list {
+	margin-bottom: 30px;
+}
+
+
+
+.hidden {
+	display: none!important;
+}
+div.dashboardReport
+{
+	/*min-width:800px;*/
+}
+
+div.dashboardReport .usagebarwrapper {
+	background: url(../Images/usagebarwrapper.png) no-repeat scroll 0 0;
+	width: 128px;
+	height: 20px;
+	z-index: 1;
+	float: right;
+	position: relative;		
+}
+
+div.dashboardReport .usagebar {
+	right:0;
+	margin:0;
+	/*padding:0;*/
+	/*opacity:.5;
+	display:none;*/
+}
+
+div.dashboardReport .usagebartotal {
+	right:3px;
+	margin:0;
+	/*padding:0;*/
+}

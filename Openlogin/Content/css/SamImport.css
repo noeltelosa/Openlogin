@@ -1,0 +1,129 @@
+/* Generic */
+.buttons {
+	text-align: right;
+}
+
+input[type=submit],
+input[type=button]
+{
+	padding: 2px 10px;
+	border: 1px solid #CFCCBD;
+}
+
+table tr 
+{
+	white-space: nowrap;
+}
+
+/* Validate.aspx */
+#validate-body {
+	padding-left: 5%;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 1px #CFCCBD;
+}
+
+.empty-bar {
+	height: 2em;
+	float: left;
+	background-color: #E4E1D2;
+}
+
+.new-data-bar {
+	height: 2em;
+	float: left;
+	background-color: #729FCF;
+}
+
+.overlap-bar {
+	height: 2em;
+	float: left;
+	background-color: #EF2929;
+}
+
+.existing-data-bar {
+	height: 2em;
+	float: left;
+	background-color: #8AE234;
+}
+
+ul li.err-msg {
+	margin-left: 0;
+	list-style: none;
+	background: url(../Icons/error.png) no-repeat left center;
+	padding-left: 2em;
+	color: #EF2929;
+}
+
+span.warning {
+	background: url(../Icons/warning.png) no-repeat left center;
+	padding-left: 2em;
+	color: #EF2929;
+}
+
+/* Adjust.aspx */
+#new-data-slider .ui-slider-range {
+	background: #729fcf;
+}
+
+#new-data-slider .ui-slider-handle {
+	border-color: #729fcf;
+}
+
+#e-left-overlap-data .ui-slider-range {
+	background: #8ae234;
+}
+
+#e-right-overlap-data .ui-slider-range {
+	background: #8ae234;
+}
+
+/* Import.aspx */
+#import-body {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	border: solid 1px #CFCCBD;
+}
+.submitted {
+	background: url(../Icons/accept.png) no-repeat left center ;
+	padding-left: 2em;
+}
+
+.submitted-products {
+	background: url(../Icons/application_view_tile.png) no-repeat left center ;
+	padding-left: 2em;
+}
+
+ul.column {
+	width: 100%;
+	padding: 0;
+	list-style: none;
+}
+
+ul.column li {
+	float: left;
+	width: 200px; /*Set default width*/
+	padding: 0;
+	margin: 1px 0;
+	display: inline;
+}
+
+/* ImportLog.aspx */
+.sam-user,
+.sam-date {
+	width: 120px;
+}
+
+.sam-filesize {
+	width: 80px;
+}
+
+.sam-product {
+	width: 200px;
+}
+
+.sam-vendor {
+	width: 100px;
+}

@@ -1,0 +1,608 @@
+/* This is the CSS for the index.aspx */
+
+.ellipseText 
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    width: 280px;
+    display:inline-block;
+    position: relative;
+    top: 4px;
+
+} 
+
+#content {
+	padding: 0 !important;
+	width: 100%;
+	margin: 0;
+	
+}
+
+#subnavigation {
+	float: left;
+	width: 250px !important;
+	margin-right: 0 !important;
+}
+
+#portletContent {
+	overflow-x: auto;
+	border-left: solid 6px #E3E0D0;
+	overflow-style: marquee, panner;
+}
+
+#toggleNavigation {
+	left: 250px;
+	top: 70px;
+	width: 6px;
+	height: 32px;
+	padding-top: .5em;
+    background-color: Gray;
+	border: 2px solid inherit;
+	position: fixed;
+    
+}
+
+#toggleNavigation:hover {
+	box-shadow: 0 0 5px #E3E0D0;
+}
+
+td {
+	vertical-align: top !important;
+}
+
+.mainheight 
+{
+    height:100%;
+}
+
+.jqx-checkbox 	{
+	margin-left: -3px;
+	margin-top: 2px;
+}
+
+ul.vertical-menu li a {
+	font-size: 10pt !important;
+}
+
+.jqx-splitter-collapse-button-vertical-openit {
+	top: 0 !important;
+	margin-top: 0 !important;
+	height: 100% !important;
+}
+	
+/* This is the CSS for home.aspx*/
+
+legend {
+	vertical-align: middle;
+	margin-bottom: .25em;
+	margin-top: .25em;
+	padding: .25em;
+	color: #4C6177;
+}
+#jqxSearchMode {
+    float: left;
+    margin-left: 5px;
+}
+
+#searchInput {
+    float: left;
+    margin-top: 0;
+    margin-left: 5px;
+    width: 200px;
+}
+
+#closeAllWindow {
+    display: none;
+    float: right;
+}
+
+#rtusage {
+	padding: 10px;
+	padding-top: 0;
+}
+
+.expander {
+    margin-bottom: 5px; 
+}
+
+.expander-header {
+    border: 1px solid #d4d4d4;
+	overflow: hidden;
+    z-index: 1;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10 10 10 10;
+    height: auto;
+    min-width: 350px; 
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;    
+    border-radius: 3px;
+    background-image: url(/Content/Scripts/jqwidgets/styles/images/openit-icon-down.png);
+    background-repeat: no-repeat;
+    background-position: 99.5% center;
+    position: relative;
+}
+
+.expander-header-expanded {
+	background-color: #E3E0D0;
+	border-color: #CECCBC;
+	background-image: url(/Content/Scripts/jqwidgets/styles/images/openit-icon-up.png);
+}
+
+.expander-header:hover  {
+	background-color: #F0EEE4 !important;
+	border-color: #E3E0D0 !important;
+}
+ 
+.product-body {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d4d4d4;
+    border-top-style: none;
+    z-index: 0;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: middle;
+    display: none; 
+}
+
+.jqx-expander-header-content {
+	min-width: 94%;
+}
+
+.product-header {
+    width: 93%;
+	padding-left: 25px;
+	
+	/* background: url(/Content/Icons/server.png) no-repeat 4px 1px; */
+	overflow: hidden;
+}
+
+.product-usage-indicator {
+	float: right;
+	width: 40px;
+	margin-left: 2px;
+	padding-left: 25px;
+	border: thin solid #e2b677;
+	background: url(/Content/Icons/group.png) no-repeat 4px 2px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;    
+    border-radius: 3px; 
+}
+
+.product-usage-icon {
+	margin-top: 3px;
+	margin-bottom: -2px;
+	padding-right: 5px;
+	float: right;
+}
+
+.product-body-details,
+.product-body {
+	padding: 1em;
+}
+
+.product-body-details {
+	margin-bottom: 1em;
+}
+
+.distinct-users {
+	float: right;
+	margin-right: 50px;
+}
+
+.feature-header{
+    float: right; 
+    width: 50%; 
+    height: 20px; 
+    margin-top:-1px; 
+    margin-right: -1px; 
+    position: relative; 
+    border: thin solid #e2b677; 
+    /*padding-left: 1%; */     
+}
+
+.header {
+	background-image: url(../Images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+.headerSortDown {
+	background-image: url(../Images/desc.gif);
+}
+
+.headerSortUp {
+	background-image: url(../Images/asc.gif);
+}
+
+.feature-row-wrapper {
+	margin-bottom: 5px;
+}
+
+.feature-row {
+	height: 20px;
+}
+
+.feature-row:hover {
+	background-color: #FFDA7D;
+}
+
+.feature-warning,
+.feature-report-csv,
+.feature-usage-history {
+	float: right;
+	padding-top: 2px;
+	margin-right: 5px;
+}
+
+.feature-usage-wrapper {
+	padding-left: 1.9em;
+	padding-right: 2px;
+	margin-top: 5px;
+}
+
+.feature-usage-bar {
+	float: right;
+	width: 50%;
+	height: 20px;
+	margin-top:-1px;
+	margin-right: -1px;
+	cursor: pointer;
+	background-color: #FBF9EE;
+	display: inline-block;
+}
+
+.feature-row-header {
+    background-color: #FFF4D8;
+    color: #d34e22; 
+    font-family: Calibri; 
+    font-size: 1.2em; 
+    text-align: center;
+}
+
+.feature-row-header,
+.feature-usage-bar,
+.feature-row {
+	position: relative;
+	border: thin solid #e2b677;
+}
+
+.feature-label {
+	padding-left: 25px;
+	background: url(/Content/Icons/application_view_tile.png) no-repeat 4px 1px;
+}
+
+.user-row-username {
+    position:relative;
+    top: 4px;
+}
+
+
+img.img_borrowed 
+{
+    float: right;
+    padding-top: 5px;
+    padding-right: 6px;
+}
+
+img.img_user 
+{
+    float: left;
+    padding-left: 5px;
+	padding-top: 5px;
+    padding-right: 2px;
+
+}
+
+.user-row-checkout {
+	padding: 4px 4px 4px;
+}
+
+.feature-usage-right,
+.feature-usage-left {
+	width: 50%;
+	height: inherit;
+}
+
+.feature-usage-left-label,
+.feature-usage-right {
+	float: right;
+}
+
+.feature-usage-right-label,
+.feature-usage-left {
+	float: left;
+}
+
+.feature-usage-border-left {
+	border-left: thin solid #e2b677;
+}
+
+.feature-usage-border-right {
+	border-right: thin solid #e2b677;
+}
+
+.feature-usage-available {
+	float: right;
+	background-color: #cccccc;
+}
+
+.feature-usage-inuse {
+	float: left;
+	background-color: #b4df5b;
+}
+
+.feature-usage-borrowed {
+    float: left;
+    background-color: #eea75d;
+}
+
+.feature-usage-queued {
+	float: right;
+	background-color: #f0f0f0;
+}
+
+.feature-usage-offline {
+	float: right;
+	background-color: #e7ffb4;
+}
+
+.feature-usage-reserved {
+	float: left;
+	background-color: #888888;
+}
+
+.feature-usage-label {
+	position: absolute;
+	left: 0;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+}
+
+.jqx-window {
+	box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.stack-left {
+	float: left;
+	margin-right: 5px;
+}
+
+.stack-right {
+	float: right;
+	margin-top: -5px;
+}
+
+.sort-options {
+	margin-top: 3px;
+}
+
+.sort-options img {
+	margin-top: -2px;
+}
+
+/*This is the CSS for rtproducts */
+.product-label {
+	text-align: left; 
+	width: 75%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+/*This is the CSS for rtfeatures */
+
+.feature-label {
+	width: 30%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+.feature-usage-left-label {
+    padding-right: 2px;
+}
+
+.feature-usage-right-label {   
+    padding-left: 2px;
+}
+
+.feature-report-csv {
+    display: none;
+}
+
+/* This is the CSS for the add.aspx */
+
+#addDashboard {
+    overflow: hidden;
+    display: none;
+}
+
+#addDashboardContent {
+    overflow: hidden;
+}
+
+#jqxButtonCreateDashboard {
+    float: right;
+}
+
+#jqxButtonCancelDashboard {
+    float: right;
+    margin-right: 5px;
+}
+
+.content-container {
+	overflow: hidden;
+}
+
+.portlets {
+	border: 1px solid #CECCBC;
+	height: 25px;
+	padding-left: 30px;
+	padding-top: 5px;
+	margin: -4px;
+	cursor: pointer;
+	width: 99%;
+}
+
+.removeicon {
+	position: absolute;
+	right:0%;
+	top: 0%; 
+}
+
+.removeicon:hover {
+	background: url('/Content/Icons/closehovers.ico') no-repeat;
+}
+
+.container {
+	position:relative;
+	content:inherit;
+}
+
+/* This is the CSS for the userdetails.aspx */
+
+.user-details-header strong {
+	font-size: 1.2em;
+	color: #D16455;
+}
+
+.user-details-icon {
+	float: left;
+	top: 3px;
+	position: relative;
+}
+
+.user-details-header {
+	padding-left: 40px;
+}
+
+.user-details-body {
+	overflow: hidden;
+	width: auto !important;
+}
+
+td.user-details-caption {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+/* This is the CSS for the subscription.aspx */
+
+#jqxButtonAddRecipient {
+	height: 26px;
+}
+
+#jqxListRecipients {
+    height: 100px;    
+}
+
+#jqxButtonSaveConfig,
+#jqxButtonSaveSubscription {
+    float: right;    
+}
+
+#jqxButtonCancelConfig,
+#jqxButtonCancelSubscription {
+    float: left;
+    margin-right: 100px;
+}
+
+/* This is the CSS for the layouts */
+
+#jqxCheckBoxPublic {
+	float: left;
+}
+
+#dashboardId {
+    display: none;
+}
+
+#layoutContainer {
+    padding: 20px;
+}
+
+.portlet-unconfigured {
+	height: 50px;
+	margin: 10px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.portlet-config {
+	top: 3px;
+	position: relative;
+	margin-right: 3px;
+}
+
+.dashboard {
+	width: 230px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.dashboard-tools {
+	position: relative;
+	float: right;
+}
+
+.dashboard-icon {
+	top: 2px;
+	float: right;
+	position: relative;
+}
+
+.dashboard-folder {
+	background-color: #F7F7F7;
+	border-top: 1px solid #EEEEEE;
+	padding: 0.5em 1em;
+	height: 22px;
+	font-size: 1.3em;
+}
+
+/*CSS for License Manager's Meta Data */
+
+.meta-data-header {
+	margin-bottom: .5em;
+	margin-top: -1em;
+	/*background-color: #F0F8FF;   
+    border: 1px solid #3399FF;*/
+    border-top: none;
+	overflow: hidden;
+    z-index: 1;
+    height: auto;
+    min-width: 350px; 
+    /*-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;*/
+	/*border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;*/
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.meta-data-body {
+	padding: .2em .2em;
+	font-family: Calibri; 
+    font-size: 1em;
+	color: #484848;
+	cursor: pointer;
+}
+
+.daemon-status {
+	margin-top: 3px;
+	margin-bottom: -2px;
+	padding-right: 5px;
+	float: left;
+	z-index: 1;
+}
