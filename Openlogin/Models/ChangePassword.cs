@@ -26,7 +26,5 @@ namespace Openlogin.Models
         [Compare("NewPassword", ErrorMessage = "Please confirm your password")]
         [DataType(DataType.Password)]
         public String ConfirmPassword { get; set; }
-
-        public String Result{ get; set; }
     }
 }

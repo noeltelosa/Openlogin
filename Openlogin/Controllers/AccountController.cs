@@ -30,8 +30,6 @@ namespace Openlogin.Controllers
         {
             if (ModelState.IsValid)
             {
-                System.Threading.Thread.Sleep(5000);
-                String result = "Password change successful";
                 String machineAndUser = Environment.MachineName + "\\" + account.Username;
                 string adsPath = String.Format("WinNT://{0}/{1}, user", Environment.MachineName, account.Username);
                 DirectoryEntry user = new DirectoryEntry(adsPath, machineAndUser, account.OldPassword, AuthenticationTypes.Secure);
@@ -39,8 +37,7 @@ namespace Openlogin.Controllers
                 try
                 {
                     user.Invoke("ChangePassword", new object[] { account.OldPassword, account.NewPassword });
-                    ViewBag.Message = result;
-                    account.Result = result;
+                    ViewBag.Message = "Password change successful";
                 }
                 catch (Exception ex)
                 {
@@ -50,7 +47,6 @@ namespace Openlogin.Controllers
                         errMessage = ex.Message;
                     }
                     ViewBag.Message = errMessage;
-                    account.Result = errMessage;
                 }
                 finally
                 {
@@ -60,6 +56,5 @@ namespace Openlogin.Controllers
             }
             return View();
         }
-
     }
 }
