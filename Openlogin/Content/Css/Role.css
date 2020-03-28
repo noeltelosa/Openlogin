@@ -1,0 +1,320 @@
+﻿input.valid,
+input.invalid {
+}
+
+input.valid {
+    background-color: #AAFFAA;
+}
+
+input.invalid {
+    background-color: #FFAAAA;
+}
+
+.modal-title{
+    font-weight:700;
+    color:#FFFFFF;
+}
+.modal-header{
+    background-color:#595959;
+    color:#FFFFFF;
+}
+
+.modal-header .close{
+    color: #FFFFFF;
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#roles-action{
+    width: 350px !important;
+}
+
+th, td {
+    padding: 5px;
+}
+
+li 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+input[type='checkbox'] {
+    width: 13px;
+    height: 13px;
+
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+        position: relative;
+    bottom: -2px;
+}
+
+.imgshow {
+    background-image: url('/Content/Css/jqwidgets/images/office-icon-down.png');
+    float: left;
+    height: 20px;
+    width: 20px;
+    display: none;
+}
+
+.imgclose {
+    background-image: url('/Content/Css/jqwidgets/images/office-icon-right.png');
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+#treemain {
+    margin-top: -15px;
+}
+
+#attrMembers {
+    height: 445px; 
+    width: 406px; 
+    border: 1px solid #e3e3e3; 
+    padding: 4px;
+    overflow: auto;
+    margin-left: 3px;
+}
+
+#description {
+    width: 140px;
+    height: 140px; 
+    font-family: Tahoma; 
+    font-size: 10px; 
+    border: 0.5px solid #e3e3e3;
+    text-align: center;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 2px;
+    background-color: #f8f8f8;
+}
+
+#updateRolesbtn {
+    float: right;
+}
+
+#cancelRolebtn {
+    float: right;
+    margin-left: 5px;
+}
+
+.select-section
+{
+    width:550px;    
+}
+
+#select_section_table {
+    table-layout: fixed;
+}
+
+.tdleft
+{
+    width: 140px;    
+}
+
+.tdright
+{
+    width: 410px;    
+}
+
+.chkboxlbl {
+    font-size: 11px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 3px; 
+    font-style:italic;
+}
+
+.jqx-checkbox 	{
+	margin-left: -3px;
+	margin-top: 2px;
+}
+
+#jqxCheckBoxVistualTotals {
+    position: absolute;
+}
+
+#jqxCheckBoxVistualTotalsLabel {
+    padding-left: 20px;
+}
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.panel-body{
+    padding:0px;
+}
+
+.row .control-label{
+    padding-top: 0px;
+    vertical-align:top;
+    text-align:left;
+    font-weight:700;
+}
+
+.mintrig {
+    margin: 0px !important;
+}
+
+.jqx-validator-hint-arrow {
+    position: absolute !important;
+    top: 0px !important;
+}
+
+.form-horizontal .control-label {
+    padding-top: 0px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 700;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.left {
+    width: 150px !important;
+}
+
+th, td {
+    padding-bottom: 10px;
+}
+
+.table_id {
+    width: 380px;
+}
+
+#lmpViews {
+    /*width: 370px;*/
+    height: 170px;
+    border: 1px solid #d3d3d3;
+    overflow: auto;
+    padding: 4px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+#updateRoleRestrictionbtn {
+    float: right;
+    margin-right: 5px;
+}
+
+#cancelRoleRestrictionbtn {
+    float: right;
+    margin-right: 5px;
+}
+
+#restictionContent {
+    padding: 10px;
+}
+
+.pageview {
+    background-image: url(../../../../Content/Icons/text_rich_marked.png);
+}
+
+.pagesite {
+    background-image: url('../../../../Content/Icons/sitemap_color.png');
+}
+
+.pagesite, .pageview {
+    background-repeat: no-repeat;
+    background-size: 13px;
+}
+
+img {
+    top: -2px !important;
+    position: relative;
+}
+
+#form_addrole {
+    width: 540px !important;
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+#jqxInputDescription {
+    resize:none;
+}
+
+#dbpermission {
+    width:250px !important;
+}
+
+#cubepermission {
+    width:150px !important;
+}
+
+#cube_dim_attr tr td:first-child {
+    width: 27%;
+}
+
+.row-member {
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:5px;
+}
+
+#restriction-table tr td:first-child {
+    font-size: 14px;
+    width: 27%;
+}
+
+#role-add-action {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#configure-role-action {
+    margin-top: 7px;
+    margin-right: -12px;
+}
+
+#role-action {
+    width: 350px !important;
+}
+
+.height {
+    display: inline-block;
+}

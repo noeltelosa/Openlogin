@@ -1,0 +1,47 @@
+﻿.inplaceeditor-form select,
+.inplaceeditor-form .editor_field {
+    line-height: 17px !important;
+    font-size: 15px !important;
+    height: 24px;
+}
+
+.inplaceeditor-form .editor_field {
+    margin-bottom: 0;
+    width: calc(100% - 140px);
+}
+
+.inplaceeditor-form .editor_ok_button,
+.inplaceeditor-form .editor_cancel_link {
+    margin: 0 0 0 5px;
+    height: 24px;
+}
+
+.conf-type,
+.conf-key{
+    width: 1%;
+}
+
+.conf-value div {
+    overflow: hidden;
+}
+
+.conf-value {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .inplaceeditor-form .editor_ok_button,
+    .inplaceeditor-form .editor_cancel_link {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    .inplaceeditor-form select,
+    .inplaceeditor-form .editor_field {
+        height: 24px !important;
+    }
+
+    .conf-value {
+        white-space: normal;
+    }
+}

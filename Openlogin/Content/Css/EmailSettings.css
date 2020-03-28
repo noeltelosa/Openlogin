@@ -1,0 +1,104 @@
+﻿td.value
+{
+	width: 98%; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	font-family: Consolas, "Lucida Console", Monospace;
+}
+
+td.value select,
+td.value input
+{
+	font-family: Consolas, "Lucida Console", Monospace;
+}
+
+span#passworditem:hover
+{
+    background-color: rgb(255, 255, 153); 
+}
+
+td.tdright
+{
+    text-align: right;    
+}
+
+form label {
+    display: block;
+    cursor: pointer;
+    text-align: right;
+    float: left;
+    margin-right: 1em;
+    width: 11em;
+}
+
+form label.labelservacct {
+    display: inline;
+    cursor: pointer;
+    text-align: left;
+    width: 11em;
+    float: none;
+    position: relative;
+    top: -3px !important;
+    font-size: 11px !important;
+}
+
+input.usesrvacct
+{
+    margin-top: 7px !important;    
+}
+
+form label 
+{
+    font-family: Tahoma;    
+}
+
+form input {
+    display: block;
+}
+
+#content h2
+{
+    font-size: 1.5em;
+}
+
+table td 
+{
+    vertical-align: top;    
+}
+
+.errorClass 
+{
+    background-color: #FFEEEE;
+    border: 1px solid #AA0000;
+}
+
+.successClass 
+{
+    background-color: #EEFFEE;
+    border: 1px solid #00AA00;
+}
+
+.errorClass, .successClass
+{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.usesrvacct
+{
+    left: 100em;
+}
+
+.key {
+    width: 180px;
+    min-width: 165px;
+}
+
+#Scc,
+#Err{
+    display: none;
+}
+
+.displaynone {
+    display: none;
+}

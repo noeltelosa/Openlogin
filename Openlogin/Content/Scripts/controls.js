@@ -497,7 +497,6 @@ Ajax.InPlaceEditor = Class.create({
     if (!this.options.externalControl)
       this.options.externalControlOnly = false;
     this._originalBackground = this.element.getStyle('background-color') || 'transparent';
-    this.element.title = this.options.clickToEditText;
     this._boundCancelHandler = this.handleFormCancellation.bind(this);
     this._boundComplete = (this.options.onComplete || Prototype.emptyFunction).bind(this);
     this._boundFailureHandler = this.handleAJAXFailure.bind(this);
@@ -878,7 +877,6 @@ Object.extend(Ajax.InPlaceEditor, {
     autoRows: 3,                                // Use when multi-line w/ rows == 1
     cancelControl: 'link',                      // 'link'|'button'|false
     cancelText: 'cancel',
-    clickToEditText: 'Click to edit',
     externalControl: null,                      // id|elt
     externalControlOnly: false,
     fieldPostCreation: 'activate',              // 'activate'|'focus'|false

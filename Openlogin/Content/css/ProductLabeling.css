@@ -467,4 +467,150 @@
     font-family: Tahoma, sans serif
 }
 
+.jqx-grid
+{
+    border-radius: 0 !important;
+    border: 1px solid #ECECEC !important;
+    margin-left: -1px !important;
+}
 
+.jqx-grid-cell
+{
+    border: 1px solid #ECECEC !important;
+}
+
+.jqx-widget-header {
+    background-color: #F5F5F5;
+    height: 38px !important;    
+    font-weight: bold !important;
+    font-size: 12.5px !important;
+    line-height: 32px;
+    color: #333;
+}
+
+.jqx-grid-column-header {
+    border: none !important;
+    padding-left: 5px !important;
+}
+
+.titlecol {
+    background-color:#F5F5F5 !important; 
+    text-align: right; 
+    font-weight: bold !important;
+}
+
+.contentcol {
+    margin-top: 5px !important;
+}
+
+div.row {
+    border: 1px solid #ECECEC; 
+    line-height: 27px !important;
+}
+
+div.panel-heading
+{
+     background-color:#F5F5F5 !important;
+     padding: 10px 10px !important;
+}
+
+div#pagerjqxGrid, div#pagerjqxRuleGrid {
+    font-weight: normal !important;
+    line-height: 20px !important;
+}
+
+div.panel
+{
+    margin: 0 !important; 
+    border-color: #ECECEC;
+}
+
+#RulesAreaDiv 
+{
+    margin-top: 35px;
+}
+
+#RulesDiv{
+    width: 100%;
+    padding-bottom: 1px !important;
+}
+
+#jqxAddRuleGrid{
+    width: 100%;
+}
+
+#jqxRuleGrid{
+    width: 100%;
+    margin-top: 35px; 
+}
+
+a.outside {
+    margin-right: 10px !important;
+    padding-top: 7px !important; 
+    padding-bottom: 7px !important;
+}
+
+#jqxSearchMode {
+    float: left;
+    margin-left: 5px;
+}
+
+#searchInput {
+    float: left;
+    margin-top: 0;
+    margin-left: 5px;
+    width: 200px;
+    height: 22px;
+    border: thin solid #e3e3e3 !important;
+}
+
+#delimiterrow {
+    display: none;
+}
+
+#label-view-wrapper{
+    margin-top: 30px;
+}
+
+.note{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 35px;
+}
+
+.labelview-panel {
+    margin: 0 !important;
+    border-color: #ECECEC;
+}
+
+.labelview-panel-heading {
+    background-color:#F5F5F5 !important;
+    padding: 6px 10px !important; 
+}
+
+.labelview-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-color: transparent !important;
+}
+
+.labelview-lbl {
+    padding: 0 !important;
+}
+
+.labelview-search {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#searchid {
+    float: right;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+#pl-import {
+    padding: 0 !important;
+}

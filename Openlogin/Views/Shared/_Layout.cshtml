@@ -4,27 +4,76 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/Content/css/Default.css">
+    <link href="~/Content/Css/jquery-ui/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Content/Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Css/OpenitStyles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="~/Content/css/Popover.css">
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/Css")
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="~/Content/Scripts/html5shiv.js"></script>
+        <script src="~/Content/Scripts/respond.min.js"></script>
+      <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="~/Content/Scripts/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+    <![endif]-->
+    <!--[if IE 6]>
+      <style>
+         .ui-widget-content
+        {
+            background: #ffe45c url(images/ui-bg_flat_75_ffffff_40x100.png) 50% top repeat-x  !important;
+            color: #363636 !important;
+            filter:none !important;
+        }
+      </style>
+    <![endif]-->
 </head>
 
 <body>
-    <div id="container">
-        <div id="header">
+    <div class="body-wrapper">
+        <div class="header">
             @Html.Partial("_Header")
         </div>
 
-        <div id="content">
-            @RenderBody()
+        <div class="content">
+            <div class="navbar-container" style="">
+                <nav class="navbar navbar-inverse sidebar" role="navigation">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="link level-1 ">
+                                    <a class="link level-1" href="/Home/Index">
+                                        <span class="hidden-xs showopacity glyphicon navIcon "><img src="/Content/Icons/Home.png" alt="" width="30" height="30"></span>
+                                        <span class="nav-label">Home</span>
+                                    </a>
+                                </li>
+                                <li class="link level-1 ">
+                                    <a class="link level-1" href="/Home/Index">
+                                        <span class="hidden-xs showopacity glyphicon navIcon "><img src="/Content/Icons/ID-01.png" alt="" width="30" height="30"></span>
+                                        <span class="nav-label" style="font-family">Account</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="main">
+                <div class="right-div">
+                    <div class="right-inner-div">
+                        @RenderBody()
+                    </div>
+                    <div id="footer">
+                        @Html.Partial("_Footer")
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div id="footer">
-            @Html.Partial("_Footer")
-        </div>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

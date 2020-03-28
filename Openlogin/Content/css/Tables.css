@@ -8,17 +8,23 @@ table
 
 table caption
 {
-	background-color: #E4E1D2;
+    background-color: #f5f5f5;
 	font-size: 10pt;
 	font-weight: bold;
 	margin: 0pt;
-	padding: 0.2em 0.7em;
 	text-align: left;
 	margin-left: -1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    border-width: 1px 1px 0 1px;
+    padding-left: .2em;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #333333;
+    
 }
 
 table.list {
-	font-size: 8pt;
 	width: 100%;
  	border-collapse: collapse;
 }
@@ -30,37 +36,73 @@ caption img {
 
 table.list,
 table.list th,
-table.list td {
-	border-color: #CFCCBD;
+table.list td
+
+{
+    border-color: #cdcdcd;
 	border-style: solid;
 	border-collapse: collapse;
 }
 
-table.list {
-	border-width: 1px 0 0 1px;
+table.list 
+{
+	border-width: 1px 0 0 1px;	
 }
 
-table.list td,
-table.list th {
-	padding: 2px 5px;
+table.list td 
+{
+	padding: 5px 5px;
 	border-width: 0 1px 1px 0;	
 }
 
-table.errlist {
-	table-layout: fixed;
+table.list td.roles-members {
+    border-right: 0;
 }
 
-table.errlist {
-	word-wrap: break-word;
+table.list td.roles-deletemember {
+    border-left: 0;
+    text-align:right;
 }
 
-table.list th {
-	background-color: #F3F1E0;
+table.list th 
+{
+    background-color: #f5f5f5;
+    padding: 10px 10px;
+    border-width: 0 0 1px 0;	
 }
+
+table.list thead tr th table tr
+{
+    border-right: none;
+    border-bottom: none;
+    background-color: #f5f5f5;
+}
+
+
 
 table.list thead th {
 	text-align: left;
 	color: #333333;
+    
+}
+
+table.list thead th.action-roles {
+    width: 255px;
+}
+
+table.list thead th.action-mappingsource {
+    width: 360px;
+}
+
+table.list thead th.action-timezones {
+    width: 180px;
+}
+
+table.list thead tr {
+    border-width: 0 1px 1px 0;	
+    border-color: #cdcdcd;
+	border-style: solid;
+
 }
 
 table.list a {
@@ -69,17 +111,21 @@ table.list a {
 }
 
 table.list a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+    border-color: #ADACA7;
+    color: #000000;
 }
 
-
+table.list tr {
+    background-color: white;
+}
 
 table.list tr.odd {
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 }
 
 table.list tr.even {
-	background-color: #FAFAFA;
+	/*background-color: #FAFAFA;*/
 }
 
 table.list .date		{ width: 1%; white-space: nowrap; }
@@ -101,7 +147,8 @@ table.list tr.clickable {
 table.list select,
 table.list input {
 	font-weight: normal;
-	font-size: 8pt;
+	font-size: 13px;
+    font: Open Sans;
 }
 
 table.list tbody tr.marked {
@@ -115,12 +162,44 @@ table.list input[type=text]
 	border: 1px solid #CFCCBD;
 }
 
+/*table.list input[type=text].member_field {
+    width: 60%;
+}*/
 
+table.list a.editor_cancel_link,
 table.list input[type=submit],
-table.list input[type=button]
+table.list input[type=button],
+table.list a.button,
+table.list a.edit,
+table.list a.delete,
+table.list a.save,
+a.btn, button.btn, input.btn, input[type=submit], input[type=button]
 {
-	padding: 2px 10px;
-	border: 1px solid #CFCCBD;
+    border: 1px solid #d0cece;
+    cursor: pointer;              
+    padding: 2px 14px 2px 14px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    font-family: 'Open Sans';
+    font-style: normal; 
+    font-weight: 400;
+	font-size: 13px;
+    color: rgb(109, 107, 107);
+    text-decoration:none;
+}
+
+table.list input[type=submit]:before,
+table.list input[type=button]:before 
+{
+    
+  float: left;
+  width: 1em;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0 0.5em 0 -1em;
+  padding: 0 .2em;
+  pointer-events: none;
+
 }
 
 /* TableSorter Styles */
@@ -132,7 +211,8 @@ table.tablesorter thead tr .header {
 }
 
 table.tablesorter tbody tr.odd td {
-	background-color:#F0F0F6;
+	/*background-color:#F0F0F6;*/
+    background-color:white;
 }
 
 table.tablesorter thead tr .headerSortUp {
@@ -144,5 +224,400 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-	background-color: #e3e0d0;
+	background-color: #a0a0a0;
+	background-color: #a0a0a0;
 }
+
+table td.conf-value,
+table td.conf-value select,
+table td.conf-value input 
+{
+    font-family: "Courier New", Courier, monospace;
+
+
+}
+
+
+code 
+{
+    color:rgb(109, 107, 107);
+    background-color:transparent;
+}
+
+
+
+a.showNew_btn,
+a.showNew_btn img 
+{
+
+    display:none;
+    
+}
+
+
+@media 
+only screen and (max-width: 768px)
+ {
+
+    /*table.list tr#catalognewrow
+    {
+        display: none;
+    
+    }*/
+
+
+    div.main 
+    {
+    
+         position: relative;    
+    }
+    table.list tr#catalognewrow {
+           display:none;
+    }
+
+
+    table.list tr#catalognewrow
+    {
+
+       position: fixed;
+       top: 150px;
+       background-color: white;
+       width: 95%;
+       border: solid 1px black;
+       z-index: 99;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+        border-radius: 5px;
+      padding-bottom: 10px;
+
+    }
+
+
+    .overlay 
+    {
+        position:absolute;
+        display: none;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color:rgba(0, 0, 0, 0.85);
+        z-index:9;
+        height:100%;
+    }
+
+   
+    table.list tr#catalognewrow td:nth-of-type(1) 
+    { 
+        text-align: right!important;
+        top: 5px; 
+        padding-bottom: 10px;
+      
+    }
+
+     table.list tr#catalognewrow td:nth-of-type(1) :before
+    { 
+        content: "Add new Cost"
+    }
+
+
+
+     table.list tr#catalognewrow td:nth-of-type(1)  a
+    { 
+      
+    bottom: 10px;
+    background-color: #dadada;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:120px!important;
+     color: rgb(109, 107, 107);
+    font-size:12px;
+   
+    }
+
+
+
+   table
+   {
+    
+        width:90%; 
+   }
+
+  table td
+  {
+      word-break: break-all;
+  }
+
+  table.responsive-table.list 
+  {
+      border: none!important;    
+  }
+
+
+  table.responsive-table.list
+  {
+
+    border-width: 0 1px 1px 1px !important;
+    border-color: #ccc!important;
+    border-style: solid!important;
+  }
+
+
+   table.responsive-table.list caption 
+   {
+       border-right: 0;
+
+   }
+
+
+	/* Force table to not be like tables anymore */
+    table.responsive-table,
+    table.responsive-table thead, 
+    table.responsive-table tbody, 
+    table.responsive-table th, 
+    table.responsive-table td, 
+    table.responsive-table tr 
+
+	/*table, thead, tbody, th, td, tr , td.roles-deletemember, td.roles-members*/
+    { 
+		display: block; 
+	}
+
+      table.responsive-table caption 
+    {
+        display: block;    
+    }
+
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	table.responsive-table thead tr
+    /*thead tr*/
+    { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+    table.responsive-table tr 
+	/*tr*/ 
+    { 
+           border-top: 1px solid #ccc;
+        
+	}
+
+	table.responsive-table td 
+	/*td*/ 
+    { 
+		/* Behave  like a "row" */
+		border: none!important;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 25%!important; 
+        min-height: 2em; 
+        width: 100%!important;
+	}
+
+
+
+     table.responsive-table td table tr
+    {
+       border-top:none!important;
+    }
+
+
+
+    
+    table.responsive-table td table td
+    {
+        padding-left: 0!important;
+    }
+
+    table.table-uright    td table  td:nth-of-type(2):before 
+    {
+    
+        left: -32%;    
+        text-align:left;
+
+    }
+
+    table.responsive-table.list tr.even 
+    {
+        background-color: #EEEEEE;
+    }
+	
+	table.responsive-table td:before 
+    { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left:6px;
+		width: 20%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+    table.responsive-table.list input[type=checkbox]  
+    {
+        float: right;
+    }
+
+
+    table#pricelist.list select, 
+    table#pricelist.list input[type=text],
+    table.responsive-table.list select, 
+    table.responsive-table.list input[type=text],
+    table.responsive-table.list input[type=textbox]  
+   {
+        width: 95%!important;
+        border: solid 0.5px rgb(237, 237, 237) !important;
+        height: 20px;
+ 
+    }
+
+
+    table.responsive-table.list input[type=submit] ,
+    table.responsive-table.list a.editor_cancel 
+
+    /*table.list input[type=submit] ,
+    table.list a.editor_cancel */
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+     table.responsive-table.table-appcost  td,
+     table.responsive-table.table-appcost  input,
+     table.responsive-table.table-appcost  select,
+     table.responsive-table.table-storagecost  td,
+     table.responsive-table.table-storagecost  input,
+     table.responsive-table.table-storagecost  select,
+     table.responsive-table.table-uright td,
+     table.responsive-table.table-uright input,
+     table.responsive-table.table-uright select
+     {
+         text-align: left!important;
+
+     }
+     
+    a#showNew_btn {
+       
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #222;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px gray;
+    position: fixed;
+    bottom: calc(100% - 95%);
+    right: 20px;
+    z-index: 999;
+     cursor: pointer;
+   }
+
+
+    a#showNew_btn img 
+    {
+      
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+
+    }
+
+    /*define the row 'label'*/
+    table.table-configuration td:nth-of-type(1):before { content: "Key"; }
+	table.table-configuration td:nth-of-type(2):before { content: "Value"; }
+	table.table-configuration td:nth-of-type(3):before { content: "Type"; }
+
+
+       /*Log Page*/
+
+    table.table-log td:nth-of-type(1):before { content: "Date"; }
+    table.table-log td:nth-of-type(2):before { content: "Level"; }
+    table.table-log td:nth-of-type(3):before { content: "Logger"; }
+    table.table-log td:nth-of-type(4):before { content: "Message"; }
+    #log-wrapper{ border: none;}
+ 
+
+
+    /*Roles*/
+    table.table-roles td:nth-of-type(1):before { content: "Roles"; }
+	table.table-roles td:nth-of-type(2):before { content: "Description"; }
+	table.table-roles td:nth-of-type(3):before { content: "Members"; }
+	table.table-roles td:nth-of-type(4):before { content: "Action"; }
+
+    /*Mapping*/
+    table.table-listmappings td:nth-of-type(1):before { content: "Source"; }
+	table.table-listmappings td:nth-of-type(2):before { content: "Mapping";  }
+	table.table-listmappings td:nth-of-type(3):before { content: "Valid From";  }
+	table.table-listmappings td:nth-of-type(4):before { content: "Expired On"; }
+	table.table-listmappings td:nth-of-type(5):before { content: "Action";  }
+    /*Application Cost*/
+    table.table-appcost td:nth-of-type(1):before { content: ""; }
+    table.table-appcost td:nth-of-type(2):before { content: "Type"; }
+    table.table-appcost td:nth-of-type(3):before { content: "Vendor License"; }
+    table.table-appcost td:nth-of-type(4):before { content: "Name"; }
+    table.table-appcost td:nth-of-type(5):before { content: "Unit"; }
+    table.table-appcost td:nth-of-type(6):before { content: "Unit Cost"; }
+    table.table-appcost td:nth-of-type(7):before { content: "Fixed Cost"; }
+    table.table-appcost td:nth-of-type(8):before { content: "Units Included	"; }
+    table.table-appcost td:nth-of-type(9):before { content: "Valid From	"; }
+    table.table-appcost td:nth-of-type(10):before { content: "Expired On"; }
+
+    /*Mapping Sources - Sources*/
+    table.table-listsources td:nth-of-type(1):before { content: "Name"; }
+	table.table-listsources td:nth-of-type(2):before { content: "Enabled";  }
+	table.table-listsources td:nth-of-type(3):before { content: "Identity";  }
+	table.table-listsources td:nth-of-type(4):before { content: "Action"; }
+    /*Storage Cost*/
+    table.table-storagecost td:nth-of-type(1):before { content: ""; }
+    table.table-storagecost td:nth-of-type(2):before { content: "File System"; }
+    table.table-storagecost td:nth-of-type(3):before { content: "Disk"; }
+    table.table-storagecost td:nth-of-type(4):before { content: "Project"; }
+    table.table-storagecost td:nth-of-type(5):before { content: "Allocation Type"; }
+    table.table-storagecost td:nth-of-type(6):before { content: "Unit"; }
+    table.table-storagecost td:nth-of-type(7):before { content: "Unit Cost"; }
+    table.table-storagecost td:nth-of-type(8):before { content: "Fixed Cost"; }
+    table.table-storagecost td:nth-of-type(9):before { content: "Units Included"; }
+    table.table-storagecost td:nth-of-type(10):before { content: "Valid From"; }
+    table.table-storagecost td:nth-of-type(11):before { content: "Expired On"; }
+
+     /*Mapping Sources - Sources*/
+    table.table-newmapping td:nth-of-type(1):before { content: "Name"; }
+	table.table-newmapping td:nth-of-type(2):before { content: "Enabled";  }
+	table.table-newmapping td:nth-of-type(3):before { content: "Kind";  }
+	table.table-newmapping td:nth-of-type(4):before { content: "File Path"; }
+
+    /*Mapping Sources - Destination Field*/
+    table.table-listdestination td:nth-of-type(1):before { content: "Destination"; }
+	table.table-listdestination td:nth-of-type(2):before { content: "Concurrency";  }
+	table.table-listdestination td:nth-of-type(3):before { content: "default";  }
+	table.table-listdestination td:nth-of-type(4):before { content: "None"; }
+
+    /*Usage Right*/
+    table.table-uright td:nth-of-type(1):before { content: ""; }
+    table.table-uright td:nth-of-type(2):before { content: "UM Type"; }
+    table.table-uright td:nth-of-type(3):before { content: "Vendor License"; }
+    table.table-uright td:nth-of-type(4):before { content: "Name"; }
+    table.table-uright td:nth-of-type(5):before { content: "Version Number"; }
+    table.table-uright td:nth-of-type(6):before { content: "Version Validfor"; }
+    table.table-uright td:nth-of-type(7):before { content: "License Purchased"; }
+    table.table-uright td:nth-of-type(8):before { content: "License Type"; }
+    table.table-uright td:nth-of-type(9):before { content: "Rule"; }
+    table.table-uright td:nth-of-type(10):before { content: "UR Location"; }
+    table.table-uright td:nth-of-type(11):before { content: "Valid From"; }
+    table.table-uright td:nth-of-type(12):before { content: "Expired On"; }
+  
+    /*Mapping Sources - Timezone*/
+    table.table-listtimezone td:nth-of-type(1):before { content: "SQL"; }
+	table.table-listtimezone td:nth-of-type(2):before { content: "OLAP";  }
+	table.table-listtimezone td:nth-of-type(3):before { content: "Name";  }
+    table.table-listtimezone td:nth-of-type(4):before { content: "Action";  }
+}
+
+
+
+

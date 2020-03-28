@@ -1,0 +1,33 @@
+﻿#partitions th {
+	white-space: nowrap;
+	table-layout: auto;
+}
+
+.fitwidth tr th:nth-child(1) {
+    width: 11%;
+}
+
+.fitwidth tr th:nth-child(4) {
+    width: 8%;
+}
+
+.fitwidth tr th:nth-child(5) {
+    width: 8%;
+}
+.fitwidth tr th:nth-child(6) {
+    width: 11%;
+}
+
+
+#partitions tr td:nth-child(6) {
+	text-align: center;
+}
+
+#partition_container {
+    width:70%;
+}
+
+/*#partitions tr:hover
+{
+    background-color: #FFF1CC;
+}*/

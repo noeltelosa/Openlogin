@@ -1,0 +1,286 @@
+﻿.right-div
+{
+    padding: 0px !important;
+    padding-top: 17px !important;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.home-widget-linkto
+{
+    text-decoration: none;
+    color: #AFABAB !important;
+    float: right;
+    margin-left: 4px;
+}
+
+.liodd {
+    background-image: url('../../Content/Icons/applicationcube.png');
+}
+
+.lieven {
+    background-image: url('../../Content/Icons/storagecube.png');
+}
+
+.li-box {
+    background-size: 14px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 20px;
+    background-position-y: 2px;
+    margin-left: 0 !important;
+}
+
+.list-group {
+    font-family: Open Sans;
+    border-radius: 0 0 !important;
+}
+
+.list-group-item {
+    padding: 7px !important;
+    word-break: break-all;
+}
+
+.list-group-item-text {
+    margin: 0 !important;
+}
+
+.module-links-img
+{
+    margin: 15px;
+    height: 90px;
+    position: relative;
+    background-image: url('../../Content/Icons/featureLarge.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 18px 25px;
+    border: thin solid #ddd;
+    overflow: hidden;
+}
+
+.module-links-img:hover
+{
+    background-color: #fafafa;
+}
+
+.module-links-labels
+{
+    height: 90px;
+    font-family: Open Sans;
+    font-size: 18px;
+    position: absolute;
+    color: #666666;
+    left: 75px;
+    line-height: 90px;
+}
+
+.jqx-tabs-title {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+.module-links-contents{
+    padding: 0 !important;
+}
+
+.rs-img-link {
+    width: 120px;
+    height: 108px;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border: thin solid #ddd;
+}
+
+.rs-img-link:hover {
+    background-color: #fafafa;
+}
+
+.rs-labels {
+    width: 108px;
+    height: 50px;
+    font-family: Open Sans;
+    font-size: 11px;
+    position: absolute;
+    bottom: 5px;
+    color: #666666;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 5px;
+}
+
+.rs-img {
+    max-width:37%;
+    max-height: 37%;
+    margin:0px;
+    margin-top: 8px;
+    height: 32px;
+}
+
+.rs-template {
+    position: absolute;
+    right: 4px;
+    display:none;
+}
+
+.rst-hidden{
+    display:none;
+}
+
+.a-disabled {
+    pointer-events: none!important;
+    cursor: default!important;
+}
+
+.rst-visible {
+    display: inline-block;
+}
+
+.rs-btn {
+    border: 1px solid #d0cece;
+    cursor: pointer;
+    padding: 2px 14px 2px 14px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6d6b6b;
+    text-decoration: none;
+    float: right;
+    margin-left: 4px;
+}
+
+.rs-action {
+    width: 200px;
+    float: right;
+}
+
+.rs-input{
+    width: 19px;
+    height: 19px;
+}
+
+#filename {
+    position: absolute;
+    text-overflow: ellipsis;
+    font: Open Sans;
+    font-size: 12px;
+}
+
+.img-test {
+    height: 100px; 
+    width: 90px; 
+    line-height: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.config-label-bottom {
+    color: black !important;
+    font-size:12px;
+}
+
+#h2 {
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bolder;
+    height: 100px;
+    line-height: 100px;
+    bottom: 0px;
+}
+
+#config-cube-list {
+    height: 100px;
+    font-family: Open Sans;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 12px !important;
+}
+
+.config-cube-list-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+}
+
+.ellipseText {
+    white-space: nowrap; 
+    width: 10em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.thumbnail {
+    margin-bottom: 7px !important;
+    border: none !important;
+}
+
+.config-top-row {
+    width:40%;
+    float: left;
+}
+
+.config-bottom-row {
+    width:60%;
+    float: left;
+}
+
+.config-items-top {
+    width: 50%;
+    float: left;
+}
+
+.config-items-bottom1 {
+    width: 45%;
+    float: left;
+}
+
+.config-items-bottom2 {
+    width: 55%;
+    float: left;
+}
+
+.sql-icon {
+    background-image: url('../../Content/Icons/sql.png');
+}
+
+.olap-icon {
+    background-image: url('../../Content/Icons/cube.png');
+}
+
+.db-icon {
+    background-size: 80px 90px;
+    background-position:center;
+}
+
+.err-caption {
+    display: table-cell;
+    vertical-align: middle;
+    height: 105px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.config-heading {
+    border-bottom: 1px solid #D9D9D9;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Open Sans;
+}
+
+.home-display-none {
+    display: none;
+}
+

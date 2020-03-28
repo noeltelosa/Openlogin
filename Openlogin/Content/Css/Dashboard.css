@@ -1,0 +1,1356 @@
+﻿.container {
+	position:relative;
+	content:inherit;
+}
+
+/*.right-div {
+    padding-right: 6px;
+}*/
+
+#toggleNavigation {
+	left: 419px;
+	top: 110px;
+	width: 6px;
+	height: 40px;
+	padding-top: .5em;
+    background-color: #bfbfbf;
+	border: 1px solid #bfbfbf;
+	position: fixed;
+}
+
+.modal-title 
+{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.jqx-tooltip, .jqx-tooltip-text, .jqx-tooltip-main
+{
+    background-color: white !important;
+    font-size: 11px !important;
+}
+
+.ellipseText 
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    min-width: 280px;
+    display:inline-block;
+    position: relative;
+   margin-left: 22px;
+
+} 
+
+#content {
+	padding: 0 !important;
+	width: 100%;
+	margin: 0;
+	
+}
+
+.toogle-wrapper 
+{
+    height: 100%; left: 419px; top: 70px; width: 6px; padding-top: .5em; background-color: #f0f0f0; position: fixed;
+}
+
+#toggleNavigation:hover {
+	box-shadow: 0 0 5px #E3E0D0;
+    background-color: black;
+    border-color: black;
+}
+
+.toogle-wrapper:hover {
+    background:transparent;
+
+}
+
+.toogle-wrapper:hover #toggleNavigation{
+   	box-shadow: 0 0 5px #E3E0D0;
+    background-color: black;
+    border-color:black;
+}
+
+.jqx-window-header-openit,
+.modal-header 
+{
+    background-color: #595959;
+    color: #FFFFFF;
+    height: 23px;
+}
+
+.windowLabel
+{
+        color: #FFFFFF;
+        padding-top: 2px;
+}
+  
+input[type=text].jqx-input, input[type=password].jqx-input {
+    margin-right: 3px;
+
+}
+   
+#layout0-firstContainer,
+#layout1-firstContainer,
+#layout2-firstContainer,
+#layout3-firstContainer,
+#layout4-firstContainer,
+#layout5-firstContainer,
+#layout6-firstContainer
+{
+    padding: 5px;
+}
+#layout1-secondContainer,
+#layout4-secondContainer,
+#layout4-thirdContainer
+{
+    padding-top:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#layout2-secondContainer,  
+#layout3-secondContainer,
+#layout3-fourthContainer,
+#layout5-secondContainer,
+#layout6-secondContainer,
+#layout6-fifthContainer
+{
+         
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#layout2-thirdContainer,
+#layout2-secondContainer,
+#layout3-thirdContainer,
+#layout5-thirdContainer,
+#layout5-fourthContainer,
+#layout6-thirdContainer,
+#layout6-fourthContainer
+{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#hidden_validation
+{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    top: 300px;
+}
+
+#validate_portlet {
+    width: 0px;
+}
+
+.modal-header .close {
+color: #FFFFFF;
+}
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+
+.right-div {
+    padding-left: 0 !important;
+}
+
+img.small-icon 
+{
+    height: 16px;
+    position: relative;
+    top: -1px;
+}
+
+img.medium-icon 
+{
+    height: 32px;
+    width: 32px;
+}
+img.edit-folder 
+{
+    margin-left: 10px;  
+}
+
+#addDashboardLink .small-icon {
+    top: -6px;
+}
+ 
+/**/
+.dashboard-row
+{
+    height: 100%;
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #fafafa;
+}
+
+.dashboard-nav 
+{
+ 
+    width: 300px;    
+    height: calc(100% + 63px);
+    position: relative;
+
+}
+
+.dashboard-nav ul.nav.navbar-nav {
+    width: 100%;
+}
+
+
+.dashboard-nav ul.nav.navbar-nav>li.dropdown {
+    width: inherit;
+}
+
+
+.dashboard-nav ul.nav.navbar-nav>li.dropdown:hover {
+   background-color: transparent;
+}
+
+.dashboard-nav a.navbar-brand:hover {
+  color: #5f5f5f;
+}
+
+
+.dashboard-nav,
+#subnavigation,
+.navbar-default,
+div#dashboards ul.vertical-menu,
+div#dashboards ul.vertical-menu  li
+{
+        background-color: #fafafa;
+}
+
+div#dashboards ul.vertical-menu
+{
+    list-style: none;
+    padding-top: 30px;      
+}
+
+div#dashboards ul.vertical-menu li
+{
+    padding: .75em 0;
+    background-color: #F7F7F7;
+    display: block;
+    padding-left: 20px;
+    border-bottom: 1px solid #ededed;
+    margin-left: 0;
+    margin-right: 0; 
+}
+
+div#dashboards ul.vertical-menu li:nth-of-type(1) 
+{
+       border-top: 1px solid #ededed;
+}
+
+.navbar-default .navbar-brand,
+div#dashboards ul.vertical-menu li a 
+{
+    color: #5f5f5f;
+    width: 80%;
+
+}
+
+#portletContent 
+{
+    float:none;  
+    width: 100%;
+    height: 100%;
+    border-left-width: 1px;
+    border-left: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.dashboardContent {
+      display:table-cell;
+}
+
+/* This is the CSS for the add.aspx */
+#addDashboard {
+    overflow: hidden;
+    display: none;
+}
+
+#addDashboardContent {
+    overflow: hidden;
+}
+
+#dashboard-action {
+    padding-top: 10px;
+    margin-left: -3px;
+    height:40px;
+    width: 100%;
+}
+
+#dashboardContentWrapper {
+    overflow: hidden;
+    padding: 10px;
+}
+
+div#addDashboard .modal-content 
+{    
+    width: 800px;
+}
+
+#jqxButtonCreateDashboard {
+    float: right;
+}
+
+#jqxButtonCancelDashboard {
+    float: right;
+    margin-left: 5px;
+}
+
+.content-container {
+	overflow: hidden;
+}
+
+.portlets {
+	border: 1px solid #CECCBC;
+	height: 30px;
+	padding-left: 30px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	margin: -4px;
+	cursor: pointer;
+    
+}
+
+.removeicon {
+	position: absolute;
+	right:0%;
+	top: 0%; 
+    padding: 0;
+
+}
+.removeicon img 
+{
+    border: .2px solid transparent;
+    vertical-align: top;
+}
+
+
+.removeicon:hover img
+{
+    background: url('/Content/Icons/closehovers.ico') no-repeat;
+}
+
+.container {
+	position:relative;
+	content:inherit;
+}
+
+#jqxCheckBoxPublic {
+	float: left;
+}
+
+#publicCheckBox {
+    display: none;
+    float: left;
+}
+
+#defaultCheckBox {
+    display: none;
+    float: left;
+    margin-left: 30px;
+}
+
+#jqxCheckBoxDefault {
+    float: left;
+}
+
+#toggleNavigation > img {
+    left: -6px;
+    position: relative;
+}
+
+.small-image {
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+#jqxCreateFolderWindow{
+    display: none;
+}
+
+#captureContainer {
+    float: left
+}
+
+#jqxFolderName {
+    width: 175px;
+    border: 1px solid #aaa;
+}
+
+#jqxPublicCheck {
+    float: left;
+    margin-top: 15px;
+}
+
+#jqxPublicLabel {
+    /*width: 100%;*/
+    margin-top: 15px
+}
+
+#jqxCreateFolder {
+    margin-bottom: 5px;
+    float: right;
+}
+
+#jqxCancelFolder {
+    float: right;
+}
+
+#tbl_addDashboard{
+    width: 100%;
+}
+
+#tbl_addDashboard tr td:first-child{
+    width: 50px;
+}
+
+#portletsContainer{
+    margin-top: 2px;
+}
+
+#dashboard-panel{
+    padding-top: 7px;
+}
+
+#layoutTabs{
+    margin-top: 2px;
+}
+
+.maxwidth{
+    width: 100%;
+}
+
+.maxheight{
+    height:100%;
+}
+
+#cf-content{
+    overflow: hidden;
+}
+
+#cf-content-wrapper{
+    margin: 10px;
+}
+
+#cf-content-wrapper div:first-child {
+    float: left;
+}
+
+#cf-content-wrapper div:last-child {
+    float: left;
+}
+
+#conf-content{
+    overflow: hidden;
+    padding: 10px
+}
+
+#portlet-conf-table thead th td:first-child {
+    width: 100px !important;
+}
+
+#configure-all-table tr td:first-child {
+    width: 60px;
+}
+
+#captureContainer {
+    color: #FFFFFF;
+}
+
+#addDashboardLink {
+    float: right;
+    /*margin-right: 7px;*/
+}
+
+#updatefolder-action {
+    float: right;
+}
+
+/* This is the CSS for the layouts */
+#dashboardId {
+    display: none;
+}
+
+#layoutContainer {
+    padding: 10px;
+    
+}
+
+.title-chart {
+    background-image: url('../Icons/chart-bar.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    white-space: pre;
+    width: 25px;
+}
+
+.portlet-unconfigured {
+	height: 50px;
+	margin: 10px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.cog-right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.portlet-config 
+{
+    float: right;
+}
+
+.portlet-config,
+.portlet-config-center {
+    position: relative;
+    margin-right: 8px;
+    padding: 8px; 
+    bottom: 0px !important;
+}
+
+.cog:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.config-cog 
+{
+    background: url('/Content/Icons/cog.png') no-repeat;
+}
+
+.config-cog:hover 
+{
+    background: url('/Content/Icons/cog-white.png') no-repeat;
+       
+} 
+
+.config-sub 
+{
+    background: url('/Content/Icons/subscribe_email.png') no-repeat;
+     margin-top: 1px;
+}
+
+.config-has-sub
+{
+    background: url('/Content/Icons/envelop1.png') no-repeat;
+    margin-top: 1px;
+}
+
+.config-sub:hover 
+{
+    background: url('/Content/Icons/subscribe_email-white.png') no-repeat;
+}
+
+.config-custom
+{
+    background: url('/Content/Icons/setting1.png') no-repeat;
+}
+
+.config-custom:hover
+{
+    background: url('/Content/Icons/setting2.png') no-repeat;
+}
+
+.dashboard {
+	width: 260px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.dashboard-tools {
+	position: relative;
+	float: right;
+}
+
+.dashboard-icon {
+    right: 40px;
+}
+
+.dashboard-folder {
+	background-color: #F7F7F7;
+	border-top: 1px solid #EEEEEE;
+	padding: 0.5em 1em;
+	height: 22px;
+	font-size: 1.3em;
+}
+
+#dashboard-owner
+{
+    display: none;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    margin-top: 2px;
+    border: 1px solid #C9C9C9;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 1000;
+}
+
+#dashboard-owner::after 
+{
+    content: url('/Content/Icons/arrow.PNG');
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -14px;
+    right: 25px;
+}
+
+#configure-all
+{
+    display: none;
+    width: 422px;
+    height:160px;
+    float: right;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 3px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin-top: 2px;
+    webkit-box-shadow: 0 3px 8px rgba(0,0,0,.2);
+    top: 40px;
+    right: 5px;
+}
+
+#configure-all::after 
+{
+    content: url('/Content/Icons/arrow.PNG');
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -14px;
+    right: 30px;
+}
+.portlet-conf-table {
+    width: 100%;
+}
+
+.portlet-conf-table th, td {
+    padding: 2px;
+}
+
+.portlet-ce-conf-table{
+    width: 98%;
+}
+
+portlet-ce-conf-table tr:first-child
+{
+    height:auto;
+}
+
+portlet-ce-conf-table tr td:first-child
+{
+    width: 75px;
+}
+
+#dashboard-wrapper{
+    height: 20px;
+}
+
+.lmp-subnav-head{
+    margin-left: 17px;
+}
+
+#updatefolder-Content{
+    overflow: hidden;
+}
+
+#uf-contenet-wrapper{
+    margin: 10px;
+}
+
+#jqxCheckEmailUsers,
+#jqxCheckHtml,
+#jqxCheckFlood
+{
+    margin-left: -3px;
+    margin-top: 2px;
+}
+
+.conf-action {
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.conf-all-action{
+    padding-bottom: 5px;
+    float: right;
+}
+
+.configure-all-table {
+    width: 100%;
+    border-spacing: 3px !important;
+    border-collapse: separate !important;
+}
+
+/* This is the CSS for the subscription.aspx */
+
+#jqxButtonAddRecipient {
+	height: 26px;
+}
+
+#jqxListRecipients {
+    height: 100px;    
+}
+
+#jqxButtonSaveConfig,
+#jqxButtonSaveSubscription 
+{
+    float: right;
+}
+
+#jqxButtonCancelConfig,
+#jqxButtonCancelSubscription {
+    float: right;
+    margin-left: 5px;
+}
+
+/*subnavigation*/
+div.right-inner-div {
+    padding-top: 0 !important;
+}
+
+div.right-div {
+    padding-top: 0 !important;
+}
+
+div.main {
+    padding: 0 !important;
+}
+
+div.right-div {
+    padding-right: 0 !important;
+}
+
+label.nav-dashboard {
+    line-height: 45px;
+    font-size: 16px;
+    color: #666666;
+    font: Open Sans;
+    margin-bottom: 0 !important;
+}
+
+#subnavigation {
+    width: 100%;
+    margin-right: 0 !important;
+}
+
+.small-icon {
+    top: -7px;
+    /*right: 5px;**/
+}
+
+.admin-hr {
+    margin-left:15px !important;
+    /*margin-right:10px !important;*/
+}
+
+.admin-sub-desc{
+    padding-bottom:5px !important;
+    margin-left: 20px !important;
+}
+
+.admin-heading {
+    margin: 12px 0 0 15px;
+}
+
+#jqxDashboardFolder {
+    float: left;
+}
+
+.dashboard-tools a {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.dashboard-tools {
+    right: 10px;
+}
+
+.dashboard-tools a:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+.portletContent-innerdiv {
+    border: 1px solid #e8e8e8; 
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 !important;
+}
+
+.dashboard-head {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+    height: 40px;
+}
+
+#subscription-content {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.subscription-inputs {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.subscription-action {
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+#jqxUpdateFolderName {
+    width: 175px;
+    border: 1px solid #aaa;
+}
+
+#jqxUpdateFolder{
+    margin-bottom: 5px;
+}
+
+#jqxAgreeDelete {
+    float: left;
+    margin-top: 15px;
+}
+
+#labelAgreeDelete {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#jqxUpdatePublicCheck {
+    float: left;
+    margin-top: 1px;
+}
+
+#labelUpdatePublic {
+    width: 200px;
+}
+
+/*UpdateFolders*/
+#jqxUpdateFolderWindow {
+    display: none;
+}
+
+#captureContainer {
+    float: left;
+}
+
+/*others*/
+/* This is the CSS for the index.aspx */
+
+legend {
+	vertical-align: middle;
+	margin-bottom: .25em;
+	margin-top: .25em;
+	padding: .25em;
+	color: #4C6177;
+}
+
+#closeAllWindow {
+    display: none;
+    float: right;
+}
+
+.jqx-expander-header-content {
+	min-width: 94%;
+    width: 100%;
+}
+
+
+
+.product-body-details,
+.product-body {
+	padding: 1em;
+}
+
+.product-body-details {
+	margin-bottom: 1em;
+}
+
+.distinct-users {
+	float: right;
+	margin-right: 50px;
+}
+
+.headerSortDown {
+	background-image: url(../Images/desc.gif);
+}
+
+.headerSortUp {
+	background-image: url(../Images/asc.gif);
+}
+
+
+-wrapper {
+	padding-left: 1.9em;
+	padding-right: 2px;
+}
+
+.feature-row-header {
+    background-color: #FFF4D8;
+    color: #d34e22; 
+    font-family: Calibri; 
+    font-size: 1.2em; 
+    text-align: center;
+    width: 100%;
+}
+
+.feature-usage-label {
+	position: absolute;
+	left: 0;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+}
+
+
+/* This is the CSS for the userdetails.aspx */
+.user-details-head {
+    height: 31px !important;
+    min-width: 250px;
+}
+
+
+div.user-details-caption {
+	font-weight: bold;
+	white-space: nowrap;
+    text-align: right;
+}
+
+/*CSS for License Manager's Meta Data */
+.daemon-status {
+	margin-top: 3px;
+	margin-bottom: -2px;
+	padding-right: 5px;
+	float: left;
+	z-index: 1;
+}
+
+.button-lmp {
+border:1px solid #e3e3e3; -webkit-border-radius: 2px; -moz-border-radius: 2px;border-radius: 2px;font-size:11px !important;font-family:arial, helvetica, sans-serif; padding: 5.5px 5.5px 5.5px 5.5px; text-decoration:none; display:inline-block; color: #7F7F7F;
+ background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FCFCFC));
+ background-image: -webkit-linear-gradient(top, #FFFFFF, #FCFCFC);
+ background-image: -moz-linear-gradient(top, #FFFFFF, #FCFCFC);
+ background-image: -ms-linear-gradient(top, #FFFFFF, #FCFCFC);
+ background-image: -o-linear-gradient(top, #FFFFFF, #FCFCFC);
+ background-image: linear-gradient(to bottom, #FFFFFF, #FCFCFC);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#FCFCFC);
+}
+
+.button-lmp:hover{
+ border:1px solid #cccccc;
+ background-color: #e6e6e6; background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#e3e3e3));
+ background-image: -webkit-linear-gradient(top, #e6e6e6, #e3e3e3);
+ background-image: -moz-linear-gradient(top, #e6e6e6, #e3e3e3);
+ background-image: -ms-linear-gradient(top, #e6e6e6, #e3e3e3);
+ background-image: -o-linear-gradient(top, #e6e6e6, #e3e3e3);
+ background-image: linear-gradient(to bottom, #e6e6e6, #e3e3e3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e6e6e6, endColorstr=#e3e3e3);
+ color: #000000;
+}
+
+.button-lmp:link,
+.button-lmp:active,
+.button-lmp:visited{
+ text-decoration:none;
+}
+
+#headtitle {
+    background-image: url('../Icons/Timezones.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    font-family: Open Sans;
+    padding-left: 27px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+#headtitle span {
+    position: absolute;
+    bottom: 0px;    
+}
+
+a.navbar-brand 
+{
+   	font-weight: bold;
+}
+
+a.navbar-brand img
+{
+    float: left; 
+    margin-right: 2px;
+
+}
+
+navbar-collapse 
+{
+    padding-left: 0;    
+     padding-right: 0; 
+}
+
+
+.dashboard-add-icon 
+{
+    right: 10px;
+    position: relative;
+    top: 15px;
+    float: right;
+}    
+
+ .navbar-collapse 
+{
+    padding-left: 0;    
+    padding-right: 0;  
+}
+
+.dashboard-owner-label img,
+.dashboard-label img 
+{
+    padding-right: 7px;
+    top:-2px; 
+    position: relative;
+}
+
+div#portletContent label.dashboard-label 
+{
+   text-align: left; 
+	width: 60%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.dashboard-label,
+.dashboard-owner-label {
+     padding-top: 7px;
+     line-height: 24px;
+}
+
+.dashboard-label {
+    font-size: 16px; 
+    padding-left: 12px;
+}
+.dashboard-owner-label {
+    float: right;
+    padding-right: 10px;
+}
+.dashboard-label img {
+    height: 20px;
+}
+
+#jqxInputLabel,
+#jqxInputThreshold
+{
+    width:100%;    
+}
+
+#layoutContainer div.col-lg-12,
+#layoutContainer div.col-lg-6,
+#layoutContainer div.col-lg-4 {
+    
+   }
+.portlet-header
+{
+    background-color: #9c9c9c;
+    color: #fff;
+    border: 1px solid #9c9c9c;
+    border-bottom: 1px solid #7c7b7b;
+}
+ 
+.portlet-1 {
+    background-color: #9c9c9c;
+    color: #fff;
+    border: 1px solid #9c9c9c;
+    border-bottom: 1px solid #7c7b7b;
+    background-image: -webkit-linear-gradient(top, #b4b4b4 , 0%, #7c7b7b, 100%);
+    background-image: -moz-linear-gradient(top, #b4b4b4 0%, #7c7b7b 100%);
+    background-image: linear-gradient(to bottom, #b4b4b4 0%, #7c7b7b 100%);
+    
+ 
+}
+.portlet-2{background-color: white;color: black;}
+.portlet-3{background-color: white;color: black;}
+.portlet-4{background-color: white;color: black;}
+.portlet-5{background-color: white;color: black;}
+.portlet-6{background-color: white;color: black;}
+.portlet-7{background-color: white;color: black;}
+.portlet-8{background-color: white;color: black;}
+.portlet-9{background-color: white;color: black;}
+.portlet-10{background-color: white;color: black;}
+.portlet-11{background-color: white;color: black;}
+.portlet-12{background-color: white;color: black;}
+
+.panel-container {
+    padding-top: 5px !important;
+    padding-left: 5px!important;
+}
+
+.dashboard-desc 
+{
+    padding-left: 25px;
+    font-style: italic;
+}
+.dashboard-desc:first-letter 
+{
+    text-transform: uppercase;
+}
+
+
+
+.iinput_h
+{
+    top: 72px;
+    position: absolute;
+    right: 15px; 
+    width: 230px;
+    text-align: right;
+}
+
+.iinput_e
+{
+    bottom: 22px;
+    position: absolute;
+    left: -80px;
+    width: 230px;
+    text-align: right;
+}
+
+.IFooter {
+    height: 29px;
+    border-top: 1px solid #d4d4d4;
+    background-color: #f6f5f0;
+    padding: 5px;
+}
+
+.floatRight > label,
+.floatRight > input,
+.floatRight > div
+{
+    float: right;
+    white-space: pre;
+}
+
+.pInstanceDrpDown 
+{
+    float: right;  
+    margin-right: 15px;  
+}
+
+
+/*.jqx-widget-content {
+    overflow-x: hidden!important;
+}*/
+
+#horizontalScrollBaredit-firstContainer,
+#horizontalScrollBaredit-secondContainer,
+#horizontalScrollBaredit-thirdContainer,
+#horizontalScrollBaredit-fourthContainer,
+#horizontalScrollBaredit-fifthContainer
+{
+    display: none !important;
+}
+
+/*CustomEmail*/
+#customizeDivs {
+    overflow: hidden;
+}
+
+#standardDiv {
+    overflow: hidden;
+    margin-left: 20px;
+    padding-bottom: 10px; 
+}
+
+#jqxCustom {
+    position:relative;
+}
+
+#customDiv {
+    overflow: hidden;
+    margin-left: 10px;
+}
+.splitter-panel,
+#jqxEdit {
+   overflow-y: scroll; 
+}
+
+.custom-email-action {
+    padding: 15px;
+}
+
+#prevCom{
+    max-height:1000px;
+}
+
+#infoTable{
+    width:auto;
+    position:absolute;
+    font-size:9px;
+}
+
+/*Dashboard*/
+.dashboard {
+    position: absolute;
+}
+
+.admin-heading {
+    margin-left: 17px  !important;
+}
+
+
+/*Media*/
+@media only screen and (max-width: 768px) 
+{
+    .toogle-wrapper {
+        display:none;
+    }
+
+    .dashboard-row 
+    {
+        margin: 0;
+    }
+
+    .navbar-dashboard-toogle 
+    {
+        margin-right: 15px;
+        border: none;
+    }
+
+    #portletContent 
+    {
+        top: 0;
+        position: relative;
+        display: block;
+        left: 0px;
+        border: none;
+    }
+
+    .portletContent-innerdiv 
+    {
+        margin: 0 !important;
+    }
+
+    #layoutContainer 
+    {   
+        padding: 5px;
+    }   
+    
+    .dashboard-nav 
+    {
+        display: block;
+        width: calc(100% + 10px);
+        margin-left: -10px;
+        height: initial;
+    }
+    
+    #subnavigation
+    {
+	    width: inherit;
+	}
+
+    #layoutContainer table 
+    {
+        width: 100%;    
+    }
+
+    .dashboard-row 
+    {
+        display: block;    
+    }
+    
+    div#dashboards ul.vertical-menu
+    {
+        padding-top: 0;      
+    }
+
+
+    #toggleNavigation 
+    {
+        display:none;
+    }
+
+    div#addDashboard .-content 
+    {    
+        width: 80%;
+    }
+
+    .navbar-collapse 
+    {
+        padding-left: 15px;    
+        padding-right: 15px;  
+    }
+
+    .dashboard-tools 
+    {
+        display: block !important;
+    }
+
+    div.dashboard-tools a:nth-of-type(2) 
+    {
+        display:none;
+    } 
+
+    .dashboard-add-icon
+    {
+        display: none;
+    }
+
+    .dashboard-icon 
+    {
+        right: 5px;
+    }
+     
+    label.dashboard-owner-label 
+    {
+         font-size: 0;
+    }
+
+    div#dashboards ul.vertical-menu li 
+    {
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}

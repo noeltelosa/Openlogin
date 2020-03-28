@@ -1,0 +1,376 @@
+﻿#jqxCreateFolderWindow{
+    display: none;
+}
+
+#captureContainer{
+    float: left;
+}
+
+#addfolder-content{
+    overflow: hidden;
+}
+
+#addfolder-content-wrapper{
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.maxwidth {
+    width: 100%;
+}
+
+#jqxFolderName {
+    width: 100%;
+    border: 1px solid #aaa;
+}
+
+#addfolder-action{
+    width: 100%;
+    margin-top: 28px;
+    padding-right: 3px;
+    text-align: right;
+}
+
+#jqxCreateFolder {
+    margin-right: 5px;
+}
+
+.dxpgHeaderText_Mulberry
+{
+    padding: 2px 2px;
+}
+
+.dxpgHeaderGroupButton_Mulberry 
+{
+    padding: 0 2px 0 2px;
+}
+
+.dxpgHeaderFilter_Mulberry 
+{
+    padding: 0 2px 0 2px;
+}
+
+.dxtvControl_Mulberry .dxtv-btn {
+    margin: 10px 2px;
+}
+
+.dxtvControl_Mulberry .dxtv-elbNoLn, .dxtvControl_Mulberry .dxtv-elb {
+    width: 15px;
+    height: 22px;
+    vertical-align: top;
+    float: left;
+}
+
+
+#pivotGrid_dxpgCustFields_treeCF.dxtvControl_Mulberry {
+    font-family: Open Sans;
+    font-size: 12.5px !important;
+}
+
+#pivotCustomizationFrom {
+    width: 100% !important;
+}
+
+.dxpgFLListDiv_Mulberry > div > div {
+    overflow-x: auto !important;
+}
+
+.dxpgFLListDiv_Mulberry {
+    margin-top: -3px !important;
+}
+
+.dxpgCustFieldsDiv_Mulberry {
+    padding: 0px !important;
+}
+
+#head {
+    background-color: #f0f0f0 !important;
+}
+
+#toggleButton {
+    float: right;
+    width: 80px;
+    text-align: right;
+}
+
+li.list-group-item {
+    margin-left: 0px !important;
+}
+   
+#Connection, #TemplateManager, #Export
+{
+    padding: 0px !important;
+    margin: 0px 20px 20px 0px;
+}
+     
+.table {
+    border-collapse: collapse !important;
+}
+
+
+.dxpgFilterArea_Mulberry 
+{
+    border: none;
+}
+
+
+button.dropdown-toggle {
+    width: 200px;
+}
+
+#ServerDelete, #ServerNewFolder, #ServerRename, #DatabaseDelete, #DatabaseLoad, #DatabaseSaveAsNew, #CubeExport {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.dropdown-toggle 
+{
+    border-radius: 0px;
+}
+
+#webChart_IMG 
+{
+    border: none !important;
+}
+
+#folderdrpdown,
+#exportlist,
+#templatedrpdown
+{
+    float: left;
+    margin-right: 3px;
+}
+
+.dxbButton_Mulberry.dxbButtonSys.dxbTSys {
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #333;
+    background-color: #fff;
+    border-color: #DFDFDF;
+    border-collapse: inherit;
+    background-image: none;
+    width: 94px;
+    margin-top: -1px;
+    height: 23.2px;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fdfdfd ), to(#efefef));
+    background-image: -webkit-linear-gradient(top, #fdfdfd , 0%, #efefef, 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #efefef 100%);
+    background-image: linear-gradient(to bottom, #fdfdfd 0%, #efefef 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe74c3c', endColorstr='#ffe43725', GradientType=0);
+    border-radius: 3px;
+}
+
+.dxbButton_Mulberry.dxbButtonSys.dxbTSys:hover  
+{
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.dxbButton_Mulberry div.dxb 
+{
+    padding: 0;
+}
+
+.tem-manager-btn 
+{
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    padding-top: 3px;
+    width: 94px;
+    height: 23.2px;
+    border-color: #DFDFDF;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fdfdfd ), to(#efefef));
+    background-image: -webkit-linear-gradient(top, #fdfdfd , 0%, #efefef, 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #efefef 100%);
+    background-image: linear-gradient(to bottom, #fdfdfd 0%, #efefef 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe74c3c', endColorstr='#ffe43725', GradientType=0);
+}
+
+.chartOptionsPanel 
+{
+    background: #F9F9FA;
+    border-top:solid 1px #D3D6DA;
+    border-bottom:solid 1px #D3D6DA;
+    width: auto;
+    padding: 14px 12px 12px 12px;
+}
+
+/*DevExpress*/
+.dxpc-mainDiv {
+    min-width: 235px;
+}
+
+#pivotGrid_dxpgCustFields_treeCF_CD ul li {
+    margin-left: initial !important;
+}
+
+#pivotGrid_DXHFP_treeGFTR_CD ul li {
+    margin-left: 10px !important;
+}
+
+#buttonSaveLayout {
+    visibility: hidden;    
+}
+
+#Connection {
+    width: 400px;
+}
+
+#TableList colgroup col {
+    background-color: #f0f0f0;
+} 
+
+#submitconnection {
+    white-space:pre;
+}
+
+#TemplateManager {
+    width: 600px;
+}
+
+#pivotgrid-settings {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 230px;
+    float: left
+}
+
+#pivotgrid-export{
+    padding-left: 0px;
+    padding-top: 2px;
+    overflow-x: scroll;
+    width: calc(100% - 233px)
+}
+
+#pivotGridChartsIntegration{
+    margin-bottom: 15px;
+}
+
+
+#chart-settings {
+    width: 850px;
+}
+
+#charttype_lbl {
+    margin-left: 2px;
+}
+
+#jqxCreateTemplateWindow {
+    display: none;
+}
+
+#exportTitle,
+#captureContainer {
+    float: left;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+#template-content {
+    overflow: hidden;
+}
+
+#template-content-wrapper {
+    margin: 10px;
+}
+
+#template-content-wrapper div {
+    width: 100%;
+}
+
+#jqxTemplateName{
+    width: 80%;
+    border: 1px solid #aaa;
+}
+
+#template-action {
+    width: 100%;
+    margin-top: 2px;
+    padding-right: 2px;
+    text-align: right;
+}
+
+#export-content {
+    padding: 10px;
+    overflow: hidden;
+}
+
+#exportreportname {
+    width: 260px;
+    height: 20px;
+    border: 1px solid #aaa
+}
+
+#note-export {
+    color: gray;
+    font-size: 11px;
+    margin-left: 85px;
+    margin-top: 2px;
+}
+
+#export-action {
+    width: 100%;
+    margin-top: 25px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#btnExport {
+    margin-right: 5px;
+}
+
+#jqxUpdateFolderWindow {
+    display: none;
+}
+
+#captureContainer {
+    float: left;
+}
+
+#updatefolder-Content {
+    overflow: hidden;
+}
+
+#updatefolder-content-wrapper {
+    margin: 10px;
+}
+
+#jqxUpdateFolderName {
+    width: 175px;
+    border: 1px solid #aaa;
+}
+
+#jqxUpdateFolder {
+    margin-bottom: 5px;
+}
+
+#jqxAgreeDelete {
+    float: left;
+    margin-top: 15px;
+}
+
+#agreeDeleteLabel {
+    width: 100px;
+    margin-top: 15px
+}
+
+#updatefolder-action {
+    float: right;
+}
+
+#pivotGrid_DXHFP_PW-1 {
+    max-height: 380px !important;
+    max-width: 1101px !important;
+}
+
+#pivotGrid_DXHFP_PWC-1 {
+    min-width: 234px !important;
+    max-width: 1101px !important;
+}

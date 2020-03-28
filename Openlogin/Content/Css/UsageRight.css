@@ -1,0 +1,222 @@
+﻿.noborder {
+    border-width: 0 0 0 0;
+}
+
+.selectList {
+    width: 100%;
+}
+
+#toggleButton {
+    float: right;
+    width: 80px;
+    text-align: right;
+}
+
+table.list input[type="textbox"],
+table.list input[type="text"] {
+    width: 95%;
+    border: none;
+}
+
+fieldset,
+a.btn {
+    cursor: pointer;
+}
+
+.limitTextArea {
+    background: #FFFFFF;
+    height: 20px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.ui-resizable-handle {
+    background-image: url(../../../Content/Css/smoothness/images/ui-icons_222222_256x240.png) !important;
+    background-position: -64px -224px;
+}
+
+.valueinput {
+    font-size: 8pt;
+    background-color: transparent;
+}
+
+.ruleLimitation {
+    background-color: transparent;
+}
+
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sortable li {
+    margin: 5PX 5px 5px 5px !important;
+    padding: 5px;
+    font-size: 1em;
+    height: 1.3em;
+}
+
+html > body .sortable li {
+    height: 1.5em;
+    line-height: 7px;
+    font: Open Sans;
+}
+
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1em;
+    background-color: black;
+}
+
+.ui-state-default {
+    background: none !important;
+    background-color: #fafafa !important;
+}
+
+
+.ui-state-default:hover {
+    cursor: pointer;
+}
+
+#LimitationListDiv{
+    margin: 15px;
+}
+
+#LimitationListTb{
+    width: 100%;
+}
+
+#VerPath{
+    width: 400px;
+    border: thin solid #cdcdcd;
+}
+
+#MappingData{
+    width: 100%;
+}
+
+#importSource{
+    margin: 15px;
+}
+
+#URSourcesList{
+    width: 100%;
+}
+
+#LimitationListTb tr th:first-child {
+    width: 2%;
+}
+
+#LimitationListTb tr th:nth-child(2) {
+    width: 15%;
+}
+
+#LimitationListTb tr th:last-child {
+    width: 83%;
+}
+
+#MappingList {
+    margin: 15px;
+}
+
+.list {
+    width: 100%;
+}
+
+.list tr th:first-child {
+    width: 50px;
+}
+
+.list tr th:last-child {
+    width: 170px;
+}
+
+#newUR-wrapper {
+    float: right;
+}
+
+#UR-firstcolumn {
+    width: 1%;
+    white-space: nowrap;
+}
+
+#pricelist th {
+    text-align: center;
+}
+
+#pricelist tr:nth-child(2) th:first-child {
+    border-width: 0 1px 0 0;
+}
+
+#pricelist tr:first-child th:nth-child(2) {
+    width: 10%;
+}
+
+#pricelist tr:first-child th:nth-child(3),
+#pricelist tr:first-child th:nth-child(4) {
+    width: 14%;
+}
+
+#pricelist tr:first-child th:nth-child(5) {
+    text-align: center;
+    width: 15%;
+}
+
+#priceTbody tr th:nth-child(7) {
+    width: 2%;
+}
+
+#pricelist tr th:nth-child(10),
+#pricelist tr th:nth-child(11) {
+    width: 6%;
+}
+
+#pricelist tr th:nth-child(9) {
+    width: 8%;
+}
+
+#priceTbody tr td:nth-child(2) {
+    width: 10%;
+    white-space: nowrap;
+}
+
+#priceTbody tr td:nth-child(3),
+#priceTbody tr td:nth-child(4) {
+    width: 14%;
+}
+
+#priceTbody tr td:nth-child(5) {
+    width: 10%;
+}
+
+#priceTbody tr td:nth-child(9),
+#priceTbody tr td:nth-child(11),
+#priceTbody tr td:nth-child(12) {
+    width: 6%;
+}
+
+
+#priceTbody tr td:nth-child(10) {
+    width: 7%;
+}
+
+#URTextAreaDiv {
+    display: none;
+}
+
+#path-version {
+    padding-left: 7px;
+    padding-top: 9px;
+}
+
+#ur-edit-action {
+    float:right;
+    margin-right: 10px;
+}
+
+#import-UR-content {
+    padding: 10px;
+    overflow: hidden;
+}

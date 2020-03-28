@@ -1,0 +1,76 @@
+﻿ td.value {
+    width: 98%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Consolas, "Lucida Console", Monospace;
+}
+
+    td.value select,
+    td.value input {
+        font-family: Consolas, "Lucida Console", Monospace;
+    }
+.edit-header {
+    min-width: 280px;
+}
+
+.editor_field {
+    width: 50% !important;
+}
+
+input.valueinput {
+    border: none !important;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.showhider {
+    cursor: pointer;
+}
+
+.config_header {
+    position: relative;
+    float: right;
+    right: 2px !important;
+    z-index: 1000;
+}
+
+.meta-header-input {
+    background-color: transparent;
+    border: 0px !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    width: auto;
+}
+
+.editor_ok_button {
+    margin-left: 5px !important;   
+}
+
+.lmt-td-edit{
+    width: 20%;
+}
+
+.edit-value {
+    overflow: hidden;
+}
+
+#add-vendor{
+    width: 20px !important;
+}
+
+#lmt-action{
+     float:right;
+}
+
+#licensemetadata-table tr th:first-child, 
+#licensemetadata-table tr td:first-child{
+    max-width: 450px;
+}
+
+#vendor-list tr td:nth-child(1) {
+    width: 20px !important;
+}
+
+#vendor-list tr td:nth-child(2) {
+    width: 150px !important;
+}

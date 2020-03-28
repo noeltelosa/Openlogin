@@ -19,10 +19,10 @@ input.datefield
 	text-align: right;
 }
 
-/*table#pricelist td.changed
+table#pricelist td.changed
 {
     background-color: #AAFFAA;
-}*/
+}
 
 
 fieldset form label
@@ -60,19 +60,16 @@ fieldset form label
     white-space: nowrap;
 }
 
-#pager
+#pager, #pagerlimit, #pagerver
 {
-    margin: .5em;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.pagertitle {
+    margin-left: 0.7em;
 }
 
 table#pricelist.list input[type=text]
-{
-	padding: 2px 4px;
-	border: none;
-	background-color: transparent;
-}
-
-table#userMapping.list input[type=text]
 {
 	padding: 2px 4px;
 	border: none;
@@ -118,10 +115,142 @@ div.ui-selectable-helper
     background-color: transparent;    
 }
 
+.text-right {
+    text-align: right;
+} 
+
 .ui-autocomplete {
      height: 100px; 
      overflow-y: scroll; 
      overflow-x: hidden;
      font-size: 11px;
      float: left;
+}
+
+#success
+{
+    background-color: #EEFFEE;
+    border: 1px solid #00AA00;
+}
+
+#failed
+{
+    background-color: #FFEEEE;
+    border: 1px solid #AA0000;
+}
+
+#success, #failed
+{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 3px;
+    line-height: 1;
+    border: 1px solid #e5e5e5;
+    background: url(../../../../Content/Css/jqwidgets/images/openit-icon-down.png) no-repeat right #fff;
+    -webkit-appearance: none;
+}
+
+.app_unit {
+    background-position-x: 70px;
+}
+
+.stor_unit
+{
+    background-position-x: 75px;
+    width: 95px;
+}
+
+#delimiter {
+    width: 58px;
+    background-position-x: 38px;
+}
+
+#format {
+    width: 90px;
+    background-position-x: 70px;
+}
+
+#quote {
+    width: 38px;
+    background-position-x: 18px;
+}
+
+#AppCostTextAreaDiv,
+#StorCostTextAreaDiv {
+    display: none;
+}
+
+.table-appcost{
+    max-width: 100%;
+}
+
+.app_unit {
+    width: 90px;
+}
+
+.maxlength{
+    width: 100%;
+}
+
+#catalogbody tr td:nth-child(2) {
+    white-space: nowrap;
+}
+
+.table-appcost tr th:nth-child(2){
+     width: 10%;
+}
+
+.table-appcost tr th:nth-child(3){
+     width: 15%;
+}
+
+.table-appcost tr th:nth-child(3){
+     width: 35%;
+}
+
+
+#catalogbody tr td:nth-child(2),
+#catalogbody tr td:nth-child(3), 
+#catalogbody tr td:nth-child(4) {
+   text-align: right
+}
+
+#alloctype_column{
+    width: 80px;
+}
+
+.table-storagecost tr th:nth-child(4) {
+    width: 60%;
+}
+
+.table-storagecost tr:not(:last-child) td:nth-child(2),
+.table-storagecost tr:not(:last-child) td:nth-child(3) {
+    width: 15%;
+}
+
+.table-storagecost tr:not(:last-child) td:nth-child(4) {
+    width: 20%;
+}
+
+.table-storagecost tr:not(:last-child) td:nth-child(5) {
+    width: 50%;
+    white-space: nowrap;
+}
+
+.alloctype{
+    width: 80px;
+}
+
+#catalogbody tr:last-child td:nth-child(2),
+#catalogbody tr:last-child td:nth-child(3), 
+#catalogbody tr:last-child td:nth-child(4), 
+#catalogbody tr:last-child td:nth-child(5) {
+   text-align: right
+}
+
+.invertToggLink {
+    display: none;
 }

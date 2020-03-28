@@ -1,0 +1,72 @@
+﻿#disable {
+    text-decoration: none;
+    color: Gray;
+    cursor: text;
+}
+
+.button {
+    margin: 2px !important;
+}
+
+.propvisible 
+{
+    visibility: hidden;
+    cursor: default;
+}
+    
+.propRow > input 
+{
+    border: none !important;
+    background-color: transparent;
+    width: 209px;
+}
+
+.propRow:hover > input 
+{
+    border: 1px solid #CFCCBD !important;
+    background-color: #fff !important;
+    width: 209px;
+}
+
+.propRow:hover > .pointer 
+{
+    display: none;
+}
+
+#MappingList tr td:first-child {
+    width: 1%; white-space: nowrap;
+}
+
+.hasidentity{
+    background-color: #ffaaaa;
+}
+
+.hasnoidentity{
+    background-color: #AAFFAA;
+}
+
+#td-alias {
+    width: 220px;
+}
+
+#td-alias img {
+    float: right;
+}
+
+.ms-minwidth{
+    width: 1%;
+}
+
+.src-select{
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.src-background {
+    background-color: #aaffaa;
+}
+
+table.table-listdestination tr:hover {
+    background-color: #FFDA7D !important; 
+}
