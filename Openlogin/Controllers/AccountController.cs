@@ -26,6 +26,7 @@ namespace Openlogin.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult ChangePassword(ChangePassword account)
         {
             if (ModelState.IsValid)
